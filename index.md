@@ -1,7 +1,7 @@
 ---
 title: "Welcome!"
 layout: template
-filename: index.md
+filename: filename: NAME OF THIS .md FILE HERE
 coverImage: "screen-shot-2020-08-09-at-12.35.44-pm.png"
 ---
 
