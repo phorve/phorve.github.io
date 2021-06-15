@@ -9,6 +9,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Patrick Finn Horve"
 url: "https://phorve.github.io"
+baseurl: "https://patrickfhorve.com"
 date_format: "%B %-d, %Y"
 #  combo: "tex-mml-chtml"
 #  tags: "none"
