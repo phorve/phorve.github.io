@@ -1,0 +1,25 @@
+# patrickfhorve.com!
+# This config file is meant for settings that affect your entire website. When you first
+# set up your website you should go through all these settings and edit them, but after
+# the initial set up you won't need to come back to this file often.
+
+# --- Required options --- #
+
+# Name of website
+title: patrickfhorve.com
+
+# Your name to show in the footer
+author: Patrick Finn Horve
+
+# --- List of links in the navigation bar --- #
+navbar-links:
+  About: "About"
+  Publications: "Publications"
+  
+# --- Footer social media links --- #
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "pfh@uoregon.edu"
+  github: phorve
+  twitter: patrickhorve
