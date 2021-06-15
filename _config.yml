@@ -1,0 +1,4 @@
+# This is the configuration file for patrickfhorve.com
+# Maintained by Patrick Finn Horve
+
+remote_theme: mmistakes/minimal-mistakes
