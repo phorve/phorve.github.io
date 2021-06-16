@@ -14,12 +14,15 @@ title: "CV"
 ## Service
 - Ongoing Science Communication, outreach, and Education
 - Peer Review/Manuscript Review - [ORCID](https://orcid.org/0000-0002-9318-9249)
+  - PLOS one
+  - mSystems
 
 ## Professional Memberships
 - Microbes and Social Equity Working Group (2019-Present)
 - American Society for Microbiology (2018-Present)
 
 ## Publications
+- **Horve, P.F.**, Dietz,L., Northcutt, D., Stenson, J., Van Den Wymelenberg, K.G. 2021. Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2. *In Review.* Preprint: [https://www.preprints.org/manuscript/202103.0609/v1](https://www.preprints.org/manuscript/202103.0609/v1)   
 - Mhuireach, G.Á., Dietz, L., **Horve, P.**, Griffiths, W., Laguerre, A., Vandegrift, R., Gall, E., Van Den Wymelenberg, K. 2020. Differing effects of four building materials on viable bacterial communities and VOCs. Developments in the Built Environment. *Accepted*. (2021)
 - **Horve PF**, Dietz L, Fretz M, Constant DA, Wilkes A, Townes JM, Martindale RG, Messer WB, Van Den Wymelenberg K. 2020. Identification of SARS-CoV-2 RNA in Healthcare Heating, Ventilation, and Air Conditioning Units. **Accepted**. Indoor Air. Preprint: [https://doi.org/10.1101/2020.06.26.20141085](https://doi.org/10.1101/2020.06.26.20141085) (2021)
 - **Horve PF**, Kline J, Dietz L, Mhuireach GA, Youtsey K, Eng K, Hartmann E, Ishaq S, Fahimipour A, Siemens K, Wilson H, Siemens A, Van Den Wymelenberg K. 2020. Antimicrobial chemicals and Indoor Microbiomes. In Preparation.
