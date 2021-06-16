@@ -3,3 +3,5 @@ main:
     url: /CV/
   - title: "About"
     url: /home/about-me-2/
+  - title: "Posts"
+    url: /_posts/
