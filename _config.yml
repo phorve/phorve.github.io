@@ -99,7 +99,7 @@ author:
 
 # Site Footer
   links:
-    - label: "Email"
+    - label: "email"
       icon: "fas fa-fw fa-envelope-square"
        url: "mailto:pfh@uoregon.edu"
     #- label: "Website"
