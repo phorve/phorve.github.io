@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Patrick Finn Horve"
+    url: https://Patrickfhorve.com
+   - title: "About Me"
+     url: /about/
+   - title: "CV"
+     url: /CV/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
