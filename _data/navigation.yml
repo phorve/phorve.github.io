@@ -1,14 +1,9 @@
-# main links
 main:
-  - title: "Patrick Finn Horve"
-    url: https://Patrickfhorve.com
-   - title: "About Me"
-     url: /about/
-   - title: "CV"
-     url: /CV/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
