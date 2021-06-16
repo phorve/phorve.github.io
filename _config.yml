@@ -94,13 +94,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ptrick Finn Horve"
+  name             : "Patrick Finn Horve"
   avatar           : /assets/photos/headshot.jpg
   bio              : #"I am an **amazing** person."
   location         : #"Somewhere"
   email            :
-  #links:
-    - label: "Email"
+  links:
+    - label: "email"
       icon: "fas fa-fw fa-envelope-square"
        url: "mailto:pfh@uoregon.edu"
     #- label: "Website"
