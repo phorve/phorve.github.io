@@ -70,7 +70,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phorve"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "/assets/images/googlescholar.png"
       url: "https://scholar.google.com/citations?user=goIzEAGPLRwC&hl=en"
 
 footer:
