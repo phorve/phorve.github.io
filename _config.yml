@@ -58,10 +58,10 @@ plugins:
 author:
   name   : "Patrick Finn Horve"
   avatar : "/assets/images/headshot.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Doctoral Student - University of Oregon"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-email"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:pfh@uoregon.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
