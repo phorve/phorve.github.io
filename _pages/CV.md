@@ -36,8 +36,8 @@ toc: true
 8. Velazquez S., Griffiths W., Dietz L., **Horve P.**, Nunez, S., Hu, J., Shen, J., Fretz, M., Bi, C., Xu, Y., Van Den Wymelenberg, K.G., Hartmann, E.M., Ishaq, S.L. 2019. [From one species to another: A review on the interaction of chemistry and microbiology in relation to cleaning in the built environment](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12596). Indoor Air 26(6):875-1049. Impact 4.71. (2019)
 9. **Horve, P.F.**, Lloyd, S., Mhuireach, G.A., Dietz, L., Fretz, M., MacCrone, G., Van Den Wymelenberg, K., Ishaq, S.L. 2019. [Building Upon Current Knowledge of Indoor Microbiology to Construct the Next Era of Research into Microorganisms, Health, and the Built Environment.](https://www.nature.com/articles/s41370-019-0157-y) Journal of Exposure Science and Environmental Epidemiology, 30:219–235. Healthy Buildings special issue. Impact 2.927. (2019)
 
-## Invited Lectures
-1. “Microbiology and the Built Environment” - Yale Occupational and Environmental Medicine Guest Lecture Series (Co-Presented with Dr. Kevin Van Den Wymelenberg)
+## Public Presentations
+1. “Microbiology and the Built Environment”. Yale Occupational and Environmental Medicine Guest Lecture Series. November 3, 2020. *Co-Presented with Dr. Kevin Van Den Wymelenberg.*
 
 ## Conference Proceedings
 1. Christopher Lee, Alexandria Lichtl, Amelia Fitterer, **Patrick Horve**. "Utility of Plain Radiographs for the Evaluation of Shoulder Pain and Implications for Telemedicine." American Orthopaedic Society for Sports Medicine-Arthroscopy Association of North America Combined 2021 Annual Meeting, Nashville, TN. June 2021.
