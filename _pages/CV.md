@@ -1,6 +1,7 @@
 ---
 permalink: /CV/
 title: "Curriculum Vitae"
+toc: true
 ---
 
 ## Education:
