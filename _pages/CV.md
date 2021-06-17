@@ -22,6 +22,9 @@ toc: true
 1. Microbes and Social Equity Working Group (2019-Present)
 2. American Society for Microbiology (2018-Present)
 
+## Honors and Awards
+1. University of Oregon Innovation Award - Institute for Health in the Built Environment
+
 ## Publications
 1. **Horve, P.F.**, Dietz,L., Northcutt, D., Stenson, J., Van Den Wymelenberg, K.G. 2021. Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2. *In Review.* Preprint: [https://www.preprints.org/manuscript/202103.0609/v1](https://www.preprints.org/manuscript/202103.0609/v1)   
 2. Mhuireach, G.Á., Dietz, L., **Horve, P.**, Griffiths, W., Laguerre, A., Vandegrift, R., Gall, E., Van Den Wymelenberg, K. 2020. Differing effects of four building materials on viable bacterial communities and VOCs. Developments in the Built Environment. *Accepted*. (2021)
