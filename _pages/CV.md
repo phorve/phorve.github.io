@@ -4,7 +4,7 @@ title: "Curriculum Vitae"
 toc: true
 ---
 
-## Education:
+## Education
 - University of Oregon - Bachelor of Science in Biology with an emphasis in molecular, cellular, and developmental biology and minors in chemistry and music (2015-2019)
 - University of Oregon - PhD in Molecular Biology (2021-Present)
 
