@@ -1,5 +1,5 @@
 ---
-title: "New Paper on Viable Microorganisms on Hospital Windows Published in PeerJ!"
+title: "Post: New Paper on Viable Microorganisms on Hospital Windows Published in PeerJ!"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
