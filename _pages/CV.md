@@ -19,11 +19,11 @@ toc: true
   - mSystems
 
 ## Professional Memberships
-1. Microbes and Social Equity Working Group (2019-Present)
-2. American Society for Microbiology (2018-Present)
+1. [Microbes and Social Equity Working Group](https://sueishaqlab.org/microbes-and-social-equity-working-group/) (2019-Present)
+2. [American Society for Microbiology](https://asm.org/) (2018-Present)
 
 ## Honors and Awards
-1. University of Oregon Innovation Award - Institute for Health in the Built Environment
+1. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
 
 ## Publications
 1. **Horve, P.F.**, Dietz,L., Northcutt, D., Stenson, J., Van Den Wymelenberg, K.G. 2021. Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2. *In Review.* Preprint: [https://www.preprints.org/manuscript/202103.0609/v1](https://www.preprints.org/manuscript/202103.0609/v1)   
