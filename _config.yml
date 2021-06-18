@@ -73,7 +73,7 @@ author:
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=goIzEAGPLRwC&hl=en"
     - label: "Buy Me a Coffee"
-      icon: "fab fa-fw fa-coffee"
+      icon: "fab fa-fw fa-mug-hot"
       url: "https://www.buymeacoffee.com/horve"
 
 footer:
@@ -113,7 +113,7 @@ defaults:
 
 atom_feed:
   hide: true
-  
+
 category_archive:
   type: liquid
   path: /categories/
