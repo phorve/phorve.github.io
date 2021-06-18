@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Patrick Finn Horve"
   avatar : "/assets/images/headshot.jpg"
-  bio    : "Doctoral Student - University of Oregon"
+  bio    : "Doctoral Student<br>University of Oregon<br>Eugene, Oregon"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
