@@ -72,7 +72,7 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=goIzEAGPLRwC&hl=en"
-    - label: " "
+    - label: "Buy Me a Coffee"
       url: "<a href="https://www.buymeacoffee.com/horve" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>"
 
 footer:
