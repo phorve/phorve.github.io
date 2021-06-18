@@ -1,7 +1,7 @@
 ---
-permalink: /bioinformatics/
 title: "Bioinformatics"
 layout: splash
+permalink: /bioinformatics/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
