@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - update
+  - SARS-CoV-2
 ---
 ![ ](/assets/images/msystems.jpg)
 

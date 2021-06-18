@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - update
+  - SARS-CoV-2
 ---
 A new novel coronavirus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was identified late in December 2019. Since then, the virus has spread to more than 100 countries, infected over 125,000 individuals, and been [declared a pandemic by the World Health Organization](https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020).
 
