@@ -68,7 +68,7 @@ author:
       url: "https://twitter.com/patrickhorve"
     - label: "ORCID"
       icon: "https://orcid.org/sites/default/files/images/orcid_16x16.png"
-      url: "https://orcid.org/0000-0002-9318-9249"
+      url: "fab fa-fw fa-orcid"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phorve"
