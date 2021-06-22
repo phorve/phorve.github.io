@@ -10,28 +10,16 @@ header:
 This is a running list of the books that I've read (since starting this page)! I update this list periodically and may not update it for months or may update it all the time! We'll see!
 
 ### 2021
-*A Promised Land* - Barack Obama
-<b>
-*Invisible Women* - Caroline Criado Perez
-<b>
-*Deadly Outbreaks* - Alexandra Levit
-<b>
-*Pandora's Lab* - Paul A. Offitt
-<b>
-*Auschwitz: A Doctors Eyewitness Account* - Miklos Nyiszli
-<b>
-*The Pillars of the Earth* - Ken Follett
-<b>
-*World Without End* - Ken Follett
-<b>
-*Children of Time* - Adrian Tchaikovsky
-<b>
-*Artemis Fowl* - Eoin Colfer
-<b>
-*Hatchet* - Gary Paulson
-<b>
-*Tiny Beautiful Things* - Cheryl Strayed
-<b>
-*Stay Sexy and Don't Get Murdered* - Georgia Hardstark and Karen Kilgariff
-<b>
-*And Then There Were None* - Agatha Christie
+1. *A Promised Land* - Barack Obama
+2. *Invisible Women* - Caroline Criado Perez
+3. *Deadly Outbreaks* - Alexandra Levit
+4. *Pandora's Lab* - Paul A. Offitt
+5. *Auschwitz: A Doctors Eyewitness Account* - Miklos Nyiszli
+6. *The Pillars of the Earth* - Ken Follett
+7. *World Without End* - Ken Follett
+8. *Children of Time* - Adrian Tchaikovsky
+9. *Artemis Fowl* - Eoin Colfer
+10. *Hatchet* - Gary Paulson
+11. *Tiny Beautiful Things* - Cheryl Strayed
+12. *Stay Sexy and Don't Get Murdered* - Georgia Hardstark and Karen Kilgariff
+13. *And Then There Were None* - Agatha Christie
