@@ -7,3 +7,5 @@ main:
     url: /posts/
   - title: "Bioinformatics"
     url: /bioinformatics/
+  - title: "Books I've Read"
+    url: /books/
