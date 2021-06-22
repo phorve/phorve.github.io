@@ -4,7 +4,7 @@ layout: single
 permalink: /books/
 date: 2021-06-22T11:48:41-04:00
 header:
-  overlay_image: /assets/images/books.jpg
+  overlay_image: /assets/images/books.jpeg
 ---
 
 This is a running list of the books that I've read (since starting this page)! I update this list periodically and may not update it for months or may update it all the time! We'll see!
