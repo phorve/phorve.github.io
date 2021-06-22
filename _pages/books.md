@@ -1,6 +1,6 @@
 ---
 title: "Book's I've Read!"
-layout: single
+layout: splash
 permalink: /books/
 date: 2021-06-22T11:48:41-04:00
 header:
