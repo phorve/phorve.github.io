@@ -7,7 +7,9 @@ header:
   overlay_image: /assets/images/books.jpeg
 ---
 
-This is a running list of the books that I've read (since starting this page)! I update this list periodically and may not update it for months or may update it all the time! We'll see!
+This is a running list of the books that I've read<sup>*</sup> since starting this page. I update this list periodically and may not update it for months or may update it all the time! We'll see!
+
+<sup>*<sup><sub>or listened to as an audiobook<sub>
 
 ### 2021
 1. *A Promised Land* - Barack Obama
