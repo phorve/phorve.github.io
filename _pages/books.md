@@ -1,5 +1,5 @@
 ---
-title: "Book's I've Read!"
+title: "Books I've Read!"
 layout: splash
 permalink: /books/
 date: 2021-06-22T11:48:41-04:00
