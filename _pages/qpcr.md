@@ -21,9 +21,15 @@ SYBR green is a fluorescent cyanine dye that preferentially binds to double-stra
 
 TaqMan probes are hydrolysis probes (oligonucleotides) that have a reporter dye at their 5' end and a quencher dye on their 3' end. Typically, the probe is coiled in a way that the dye at the 3' end inhibits - or "quenches" - fluorescence from the reporter dye. When the sequence of the probe matches a region in the amplicon, the oligonucleotide is incorporated into new double stranded DNA. As the polymerase extends the DNA, the 5' nuclease activity of the polymerase degrades the probe and releases the reporter dye from the quenching dye. The fluorescence from the reporter dye can then be measured. As more oligonucleotide probes are incorporated into more amplicons, the fluorescent signal increases and can be tracked in real time. While TaqMan probes are typically more specific than SYBR green assays, TaqMan probes must be custom designed for each assay and are more expensive than assays using SYBR green. However, multiple TaqMan probes with reporter dyes that emit at different wavelengths can be used to detect multiple targets in the same reaction (known as multiplexing).
 
-<img align="right" width="550" height="500" src="/assets/images/sybr-taq.jpg">
-<img align="left" width="550" height="500" src="/assets/images/taqman.jpg">
+<figure>
+<img align="center" width="550" height="500" src="/assets/images/sybr-taq.jpg">
+<figcaption align = "center"><b>SYBR Green Chemistry</b></figcaption>
+</figure>
 
+<figure>
+<img align="center" width="550" height="500" src="/assets/images/taqman.jpg">
+<figcaption align = "center"><b>TaqMan Chemistry</b></figcaption>
+</figure>
 
 ### qPCR Thermal Cycler Output
 
@@ -124,10 +130,12 @@ This looks great! The biggest thing that I am looking for here is that there is 
 
 Next, we need to apply this standard curve to all of our samples in order to determine the abundance of our target in each of them! This function will take the standard curve and apply it to our unknown abundance samples:
 
+```
 convert <- function(y, b, a){
   x <- 10^((y - b) / a)
   x
 }
+```
 
 Now we can run the actual conversion function:
 
