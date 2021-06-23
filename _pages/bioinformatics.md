@@ -8,10 +8,10 @@ header:
 feature_row:
   - image_path: /assets/images/qPCR.jpeg
     alt: "qPCR"
-    title: "qPCR Walkthrough"
-    excerpt: "qPCR Walkthrough"
+    title: "qPCR Data Walkthrough"
+    excerpt: "Learn some of the background of qPCR and a basic walkthrough of real data"
     url: /bioinformatics/qpcr
-    btn_label: "Read More"
+    btn_label: "Go to Walkthrough"
     btn_class: "btn--inverse"
   - image_path: /assets/images/comingsoon.jpg
     alt: "Coming Soon"

@@ -1,6 +1,6 @@
 ---
 title: "Real-Time PCR/Quantitative PCR"
-layout: splash
+layout: single
 permalink: /bioinformatics/qpcr
 date: 2020-09-24T11:48:41-04:00
 header:
@@ -21,8 +21,8 @@ SYBR green is a fluorescent cyanine dye that preferentially binds to double-stra
 
 TaqMan probes are hydrolysis probes (oligonucleotides) that have a reporter dye at their 5' end and a quencher dye on their 3' end. Typically, the probe is coiled in a way that the dye at the 3' end inhibits - or "quenches" - fluorescence from the reporter dye. When the sequence of the probe matches a region in the amplicon, the oligonucleotide is incorporated into new double stranded DNA. As the polymerase extends the DNA, the 5' nuclease activity of the polymerase degrades the probe and releases the reporter dye from the quenching dye. The fluorescence from the reporter dye can then be measured. As more oligonucleotide probes are incorporated into more amplicons, the fluorescent signal increases and can be tracked in real time. While TaqMan probes are typically more specific than SYBR green assays, TaqMan probes must be custom designed for each assay and are more expensive than assays using SYBR green. However, multiple TaqMan probes with reporter dyes that emit at different wavelengths can be used to detect multiple targets in the same reaction (known as multiplexing).
 
-<img align="right" width="525" height="500" src="/assets/images/sybr-taq.jpg">
-<img align="left" width="525" height="500" src="/assets/images/taqman.jpg">
+<img align="right" width="550" height="500" src="/assets/images/sybr-taq.jpg">
+<img align="left" width="550" height="500" src="/assets/images/taqman.jpg">
 
 
 ### qPCR Thermal Cycler Output
@@ -158,4 +158,4 @@ qp1.1
 
 There is clearly a significant drop-off in the detectable abundance of our samples were killed and treated with PMA just as we expected! This is great!
 
-This is definitely not the only way to process qPCR data and likely is not perfect for every application, but it is a fairly standard workflow and is a great starting point! Please do not hesitate to [reach out](mailto:pfh@uoregon.edu) with any  questions or concerns! 
+This is definitely not the only way to process qPCR data and likely is not perfect for every application, but it is a fairly standard workflow and is a great starting point! Please do not hesitate to [reach out](mailto:pfh@uoregon.edu) with any  questions or concerns!
