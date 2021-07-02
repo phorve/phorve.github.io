@@ -34,7 +34,7 @@ In short, we were able to detect the presence of SARS-CoV-2 RNA. We saw the high
 3. At the point that we sampled, the filters had not recently been changed and the hospital had been admitting a large number of COVID+ individuals for months.
 4. On the other side of the coin, we suspect that swabbing these air filters is not the best way to do this sampling. Destructive sampling of the filters would have likely yielded higher abundances but was not possible for this study.
 
-So, maybe filters aren’t, perfect but we already knew this! No mitigation strategy is going to be 100%! The importance of these mitigation strategies is to layer them. So what can we do to layer on top of filters, especially outside of healthcare settings with MERV15 filters?
+So, maybe filters aren’t perfect but we already knew this! No mitigation strategy is going to be 100%! The importance of these mitigation strategies is to layer them. So what can we do to layer on top of filters, especially outside of healthcare settings with MERV15 filters?
 1. Wear a mask! (Obvious caveats  here)
 2. Increase ventilation and introduction of fresh air
 3. Maintaining relative humidity between 40-60%
