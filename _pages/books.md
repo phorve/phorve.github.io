@@ -25,3 +25,5 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 11. *Tiny Beautiful Things* - Cheryl Strayed
 12. *Stay Sexy and Don't Get Murdered* - Georgia Hardstark and Karen Kilgariff
 13. *And Then There Were None* - Agatha Christie
+14. *Column of Fire* - Ken Follett
+15. *How To Train Your Mind* - Chris Bailey
