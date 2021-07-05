@@ -27,3 +27,4 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 13. *And Then There Were None* - Agatha Christie
 14. *Column of Fire* - Ken Follett
 15. *How To Train Your Mind* - Chris Bailey
+16. *People of the Book* - Geraldine Brooks
