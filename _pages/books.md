@@ -21,12 +21,18 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 7. *World Without End* - Ken Follett
 8. *Children of Time* - Adrian Tchaikovsky
 9. *Artemis Fowl* - Eoin Colfer
-10. *Hatchet* - Gary Paulson
+10. *Hatchet* - Gary Paulsen
 11. *Tiny Beautiful Things* - Cheryl Strayed
 12. *Stay Sexy and Don't Get Murdered* - Georgia Hardstark and Karen Kilgariff
 13. *And Then There Were None* - Agatha Christie
 14. *Column of Fire* - Ken Follett
 15. *How To Train Your Mind* - Chris Bailey
 16. *People of the Book* - Geraldine Brooks
-17. *Gone Girl* - Gillian Flynn
-18. *The Body* - Bill Bryson
+17. *The Burnout Generation* - Anne Helen Petersen
+18. *Gone Girl* - Gillian Flynn
+19. *The Body* - Bill Bryson
+20. *The River* - Gary Paulsen
+21. *Born a Crime* - Trevor Noah
+22. *The Vanishing Half* - Brit Bennett
+23. *Where the Crawdads Sing* - Delia Owens
+24. *Talking to Strangers* - Malcolm Gladwell
