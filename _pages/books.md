@@ -37,3 +37,4 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 23. *Where the Crawdads Sing* - Delia Owens
 24. *Talking to Strangers* - Malcolm Gladwell
 25. *All the Light We Cannot See* - Anthony Doerr
+26. *Anxious People* - Fredrik Backman
