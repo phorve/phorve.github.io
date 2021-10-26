@@ -39,3 +39,11 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 25. *All the Light We Cannot See* - Anthony Doerr
 26. *Anxious People* - Fredrik Backman
 27. *Greenlights* - Matthew McConaughey
+28. *Waiting to be Heard* - Amanda Knox
+29. *Fall of Giants* - Ken Follett
+30. *People We Meet on Vacation* - Emily Henry
+31. *Kindred* - Octavia E. Butler
+32. *Educated* - Tara Westover
+33. *Big Summer* - Jennifer Weiner
+34. *Station Eleven* - Emily St. John Mandel
+35. *Luckiest Girl Alive* - Jessica Knoll
