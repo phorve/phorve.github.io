@@ -47,3 +47,4 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 33. *Big Summer* - Jennifer Weiner
 34. *Station Eleven* - Emily St. John Mandel
 35. *Luckiest Girl Alive* - Jessica Knoll
+36. *Know my Name* - Chanel Miller
