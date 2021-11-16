@@ -51,3 +51,4 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 37. *Harry Potter and the Sorcerer's Stone* - J.K. Rowling
 38. *Harry Potter and the Chamber of Secrets* - J.K. Rowling
 39. *When Breath Become Air* - Paul Kalanithi
+40. *In the Garden of Beasts* - Erik Larson
