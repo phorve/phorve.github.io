@@ -9,7 +9,7 @@ toc: true
 - University of Oregon - PhD in Molecular Biology (2021-Present)
 
 ## Research and Professional Experience
-- Research Assistant - Biology and the Built Environment Center (2018-Present)
+- Research Assistant - Biology and the Built Environment Center (2018-2021)
 - Research Assistant/Laboratory Technician - Westerfield Laboratory (2019-2020)
 
 ## Service
