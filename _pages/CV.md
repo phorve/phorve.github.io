@@ -12,6 +12,12 @@ toc: true
 - Research Assistant - Biology and the Built Environment Center (2018-2021)
 - Research Assistant/Laboratory Technician - Westerfield Laboratory (2019-2020)
 
+## Administrative
+- MSE Director of Resource Archiving (2022)
+
+## Teaching
+- BI 322: *Cell Biology*, University of Oregon, Graduate Teaching Assistant (2021) 
+
 ## Service
 - Ongoing Science Communication, outreach, and Education
 - Peer Review/Manuscript Review - [ORCID](https://orcid.org/0000-0002-9318-9249)
