@@ -52,3 +52,7 @@ This is a running list of the books that I've read<sup>*</sup> since starting th
 38. *Harry Potter and the Chamber of Secrets* - J.K. Rowling
 39. *When Breath Become Air* - Paul Kalanithi
 40. *In the Garden of Beasts* - Erik Larson
+41. *Harry Potter and the Prisoner of Askaban* - J.K. Rowling
+42. *Harry Potter and the Goblet of Fire* - J.K. Rowling
+43. *The Last Thing He Told Me* - Laura Dave
+44. *Normal People* - Sally Rooney
