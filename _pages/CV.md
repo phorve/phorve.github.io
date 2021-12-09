@@ -55,8 +55,3 @@ toc: true
 3. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” 2020 Microbiology of the Built Environment (MoBE) Gordon Research Conference, Andover, NH. Jun 2020.
 
 <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="m8cuqj35rotavu5"></script>
-
-<a
-  href="https://www.dropbox.com/s/rcthojbsjaqp0kk/Imaris_Video.gif?dl=0"
-  class="dropbox-embed"
-></a>
