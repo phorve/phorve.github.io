@@ -53,3 +53,10 @@ toc: true
 1. Christopher Lee, Alexandria Lichtl, Amelia Fitterer, **Patrick Horve**. "Utility of Plain Radiographs for the Evaluation of Shoulder Pain and Implications for Telemedicine." American Orthopaedic Society for Sports Medicine-Arthroscopy Association of North America Combined 2021 Annual Meeting, Nashville, TN. June 2021.
 2. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” American Society for Microbiology Microbe 2020, Chicago, IL. Jun 2020.
 3. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” 2020 Microbiology of the Built Environment (MoBE) Gordon Research Conference, Andover, NH. Jun 2020.
+
+<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="m8cuqj35rotavu5"></script>
+
+<a
+  href="https://www.dropbox.com/s/rcthojbsjaqp0kk/Imaris_Video.gif?dl=0"
+  class="dropbox-embed"
+></a>
