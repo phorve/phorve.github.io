@@ -23,3 +23,9 @@ Check out some of the awesome videos that the lab has taken in the past!
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/319322396?h=87a99fb896" width="640" height="320" frameborder="0" allowfullscreen></iframe>
 
 - - - - - - - - - -
+
+In research labs, we often find bacteria on plates and in tubes, but this isn’t representative of bacteria in real life. In real life, bacteria grow in 3D and this makes it challenging to study bacteria (and many other microorganisms) as they grow and move in 3 dimensions. While we can obviously grow bacteria easily in 3D, it is difficult to image and observe bacteria in 3 dimensions. This is a problem that the Parthasarathy lab has been working on for a long time.
+
+Previously, others in the lab have used zebrafish since, in the developmental stages when they are being colonized by bacteria, they are transparent. This allows for microscopy from multiple angles to be able to image bacteria in 3D as they colonize and establish themselves within the guts of zebrafish. In this way, you are able to study how bacteria arrange themselves in the guts of the developing zebrafish.  
+
+ ![ ](assets/images/ParthasarathyRotation/larvalzebrafish.jpeg)
