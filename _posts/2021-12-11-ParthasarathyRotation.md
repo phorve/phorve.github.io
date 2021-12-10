@@ -115,3 +115,11 @@ Overall, I learned a lot throughout this term! I learned TONS about microscopy a
 Obviously, this was just a rotation project that took place over three months and so there is a lot more that could have been done. The obvious next step is to explore the interesting growth dynamics that we observed and try to figure out how much of that is coming from a potential oxygen gradient (like Dr. Spero found), how much is coming from direct interactions between the bacteria, and how much is due to nutrient availability (even though the real answer is probably a mix of all three). Based on the images that I was able to take, it would also likely be possible to determine the grwoth rate of each individual colony, which could give further insights into the growth dynamics and the factors that contribute to it. There is also lots of potential to force the bacteria to grow in 3D shapes in order to mimic the gut and other areas inside the body to understand how the terrain around bacteria can impact their growth. Lastly, there are endless combinations of multiple bacteria interactions and the effects of multiple antibiotics at the same time that could be explored using light sheet microscopy. So many future things!
 
 I couldn't have done any of this without the help of everyone in the [Parthasarathy lab](https://pages.uoregon.edu/raghu/people.html), [Dr. Spero](https://www.sperolab.org/people), and countless other people from the University of Oregon and the Institute of Molecular Biology. Go Ducks!
+
+### Pictures from Fall Term
+
+| ![ ](/assets/images/ParthasarathyRotation/sperodata.png) | ![ ](/assets/images/ParthasarathyRotation/IMG_2469.jpg)
+| ![ ](/assets/images/ParthasarathyRotation/IMG_2487.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2488.jpg)
+| ![ ](/assets/images/ParthasarathyRotation/IMG_2550.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2594.jpg)
+| ![ ](/assets/images/ParthasarathyRotation/IMG_2681.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2685.jpg)
+| ![ ](/assets/images/ParthasarathyRotation/IMG_2705.jpg) | ![ ](/assets/images/ParthasarathyRotation/pic1.jpg)
