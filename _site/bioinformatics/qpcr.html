@@ -1,0 +1,602 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Real-Time PCR/Quantitative PCR - Patrick Finn Horve</title>
+<meta name="description" content="Welcome to the site for all of my scientific endeavours! If you’re reading this, you must be pretty freaking awesome! Welcome!">
+
+
+  <meta name="author" content="Patrick Finn Horve">
+  
+  <meta property="article:author" content="Patrick Finn Horve">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Patrick Finn Horve">
+<meta property="og:title" content="Real-Time PCR/Quantitative PCR">
+<meta property="og:url" content="http://localhost:4000/bioinformatics/qpcr">
+
+
+  <meta property="og:description" content="Welcome to the site for all of my scientific endeavours! If you’re reading this, you must be pretty freaking awesome! Welcome!">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/qPCR.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2020-09-24T08:48:41-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/bioinformatics/qpcr">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Patrick Finn Horve
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/home/about-me-2/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/CV/">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/bioinformatics/">Bioinformatics</a>
+            </li><li class="masthead__menu-item">
+              <a href="/books/">Books I've Read</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/qPCR.jpeg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Real-Time PCR/Quantitative PCR
+
+        
+      </h1>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/headshot.jpg" alt="Patrick Finn Horve" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Patrick Finn Horve</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Doctoral Student<br />University of Oregon<br />Eugene, Oregon</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:pfh@uoregon.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/patrickhorve" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://orcid.org/0000-0002-9318-9249" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-orcid" aria-hidden="true"></i><span class="label">ORCID</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/phorve" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=goIzEAGPLRwC&hl=en" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-google" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="https://www.buymeacoffee.com/horve" rel="nofollow noopener noreferrer"><i class="fab fa fa-coffee" aria-hidden="true"></i><span class="label">Buy Me a Coffee</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Real-Time PCR/Quantitative PCR">
+    
+    <meta itemprop="datePublished" content="2020-09-24T08:48:41-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#sybr-green-vs-taqman">SYBR Green vs TaqMan</a></li><li><a href="#qpcr-thermal-cycler-output">qPCR Thermal Cycler Output</a></li><li><a href="#background-on-our-data">Background on our Data</a></li><li><a href="#qpcr-data-analysis-in-r">qPCR Data Analysis in R</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>One of the most common techniques that is used in molecular biology labs to quantify differences in gene expression, microbial abundance, or even diagnose diseases and conditions is quantitative polymerase chain reaction (qPCR)/Real-time PCR. Below, I’m going to discuss the two most common formats that are used in qPCR and how to analyze that raw data once it comes back from the thermal cycler!</p>
+
+<h3 id="sybr-green-vs-taqman">SYBR Green vs TaqMan</h3>
+
+<p>There are two main methods of detection that are used in qPCR reactions:</p>
+
+<ol>
+  <li>SYBR Green</li>
+  <li>TaqMan probes</li>
+</ol>
+
+<p>SYBR green is a fluorescent cyanine dye that preferentially binds to double-stranded DNA. Because of this preferential binding, SYBR green is one of the most common ways in which PCR products are detected in qPCR reactions. By measuring the amount of fluorescence throughout the course of the reaction, the buildup of the targeted amplicon can be tracked. However, because SYBR green will bind to any double-stranded DNA, it can occasionally lead to false-positive results.</p>
+
+<p>TaqMan probes are hydrolysis probes (oligonucleotides) that have a reporter dye at their 5’ end and a quencher dye on their 3’ end. Typically, the probe is coiled in a way that the dye at the 3’ end inhibits - or “quenches” - fluorescence from the reporter dye. When the sequence of the probe matches a region in the amplicon, the oligonucleotide is incorporated into new double stranded DNA. As the polymerase extends the DNA, the 5’ nuclease activity of the polymerase degrades the probe and releases the reporter dye from the quenching dye. The fluorescence from the reporter dye can then be measured. As more oligonucleotide probes are incorporated into more amplicons, the fluorescent signal increases and can be tracked in real time. While TaqMan probes are typically more specific than SYBR green assays, TaqMan probes must be custom designed for each assay and are more expensive than assays using SYBR green. However, multiple TaqMan probes with reporter dyes that emit at different wavelengths can be used to detect multiple targets in the same reaction (known as multiplexing).</p>
+
+<figure>
+<img align="center" width="550" height="500" src="/assets/images/sybr-taq.jpg" />
+<figcaption align="center"><b>SYBR Green Chemistry</b></figcaption>
+</figure>
+
+<figure>
+<img align="center" width="550" height="500" src="/assets/images/taqman.jpg" />
+<figcaption align="center"><b>TaqMan Chemistry</b></figcaption>
+</figure>
+
+<h3 id="qpcr-thermal-cycler-output">qPCR Thermal Cycler Output</h3>
+
+<p>The main data that is used to quantify the amount of a specific target in your qPCR reaction is known as the cycle threshold (CT) value. The CT (also sometimes called Cq) represents the cycle number (typically 1-40) that it took for the measured fluorescence of a sample to cross the detection threshold (the red line below). This detection threshold is typically placed in the middle of the linear phase of the amplification curve, just as it is shown below.
+<img align="center" src="/assets/images/amplification.jpg" /></p>
+
+<p>When quantifying the abundance of a specific target in your reactions, it is typical to run multiple known ‘standards’ with a known amount of your target (I typically use custom DNA or RNA oligonucleotides from <a href="http://idtdna.com">IDT</a>). These known standards are then used to plot a standard curve based on their CT values and known quantity.</p>
+
+<p><img align="right" width="500" height="500" src="/assets/images/sd-explained.jpg" />
+The unknown samples can then be compared (using their CT value) against the plotted standard curve to determine the number of genome copies present in your samples.</p>
+
+<p>We are normally interested in the abundance in hundreds of samples so plotting and determining the abundance in each sample would be time-consuming and low throughput. To get around this, I instead use the <a href="https://www.r-project.org/">R statistical computing environment</a> to process all of my qPCR data. When I receive the raw data from the thermal cycler, it is typically outputted as a .csv file. Although these files will differ based on the brand and model of real-time PCR system that is used, most will contain some combination of this data.</p>
+
+<p><em>Note: This data was outputted from an <a href="https://www.thermofisher.com/order/catalog/product/4376600#/4376600">Applied Biosystems SteOnePlus instrument</a>. If you run into problems formatting your code/data, feel free to reach out to me at <a href="mailto:pfh@uoregon.edu">pfh@uoregon.edu</a> for some help!</em></p>
+
+<h3 id="background-on-our-data">Background on our Data</h3>
+
+<p>If you want to follow along with the data and run it yourself, you can find all of the data and code <a href="https://github.com/phorve/qPCR_Tutorial">HERE</a></p>
+
+<p>The data that we are going to be using for this walkthrough was from a test of a new <a href="https://aem.asm.org/content/73/16/5111">propidium monoazide</a> (PMA) protocol in our lab. Amplification was monitored using SYBR green using the Total Bacteria F SYBR Primer and Total Bacteria R SYBR Primer (<a href="https://doi.org/10.1186%2Fs40168-018-0559-4">Fahimipour et al., 2018</a>). I’ll be making a separate post about PMA, but in short, PMA helps us differentiate between living and dead bacterial cells in PCR reactions by inhibiting PCR in dead cells. These samples were cultured overnight and split into four experimental conditions:</p>
+
+<ol>
+  <li>Killed w/ isopropyl alcohol + treated w/ PMA (IOH+, PMA+)</li>
+  <li>Killed w/ isopropyl alcohol + not treated w/ PMA (IOH+, PMA-)</li>
+  <li>Not killed w/ isopropyl alcohol + treated w/ PMA (IOH-, PMA+)</li>
+  <li>Not killed w/ isopropyl alcohol + not treated w/ PMA (IOH-, PMA-)</li>
+</ol>
+
+<p>If the PMA treatment worked, we would expect to see similar levels of amplification in all of the treatment groups except for the one treated with both isopropyl alcohol and PMA.</p>
+
+<h3 id="qpcr-data-analysis-in-r">qPCR Data Analysis in R</h3>
+
+<p>First, we must bring our data into R, make sure any samples that didnt amplify (they won’t have a CT value) are “NA”, and combine each of the replicates (qPCR is typically run in triplicate):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qp1 &lt;- read.csv(/path/to/file.csv, header = T,skip = 7, stringsAsFactors = F)
+
+qp1[qp1 == "Undetermined"] &lt;- NA
+
+qp1.1 &lt;- qp1 %&gt;%
+dplyr::group_by(Sample.Name) %&gt;% #, run) %&gt;%
+dplyr::summarise(Ct = mean(as.numeric(as.character(Ct)))) %&gt;%
+as.data.frame()
+</code></pre></div></div>
+
+<p>Before we look at our samples, we need to look at our standards and build our standard curve:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Make an object with just our standards
+standards1 &lt;- qp1.1[grepl('Standard', qp1.1$Sample), ]
+
+# Remove the standards from the data set with all the other samples    
+qp1.1 &lt;- qp1.1[!grepl('Standard', qp1.1$Sample), ]
+
+# Describe our dilution curve and how many gene copies are in each       standard
+dil &lt;- c(1,
+         .1,
+         .01,
+         .001,
+         .0001,
+         .00001,
+         .000001)
+
+standards1 &lt;- cbind(standards1, dil)
+
+copy.1 &lt;- c(354287400,   
+            35428740,
+            3542874,
+            354287.4,
+            35428.74,
+            3542.874,
+            354.2874)
+
+# Now we can combine everything and make our standard curve
+dat1 &lt;- data.frame('Sample'= standards1$Sample, 'copy' = copy.1, 'log.copy' = log10(copy.1), 'Ct' = standards1$Ct)
+
+fit1 &lt;- lm(Ct ~ log.copy, data = dat1)
+
+line1 &lt;- lm(Ct ~ log.copy, data = dat1)
+
+ab1 &lt;- coef(line1)
+</code></pre></div></div>
+
+<p>Now lets take a look at our standards in a plot:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ggplot(dat1, aes(x = log.copy, y = Ct, colour= Sample)) +
+  theme_classic() +
+  xlab(expression('log'['10']*' Copy No. / µL standard')) +
+  ylab(expression('C'['T'])) +
+  labs(subtitle = paste("Adj R2 = ",signif(summary(fit1)$adj.r.squared, 5),
+                        "Intercept =",signif(fit1$coef[[1]],5 ),
+                        " Slope =",signif(fit1$coef[[2]], 5),
+                        " P =",signif(summary(fit1)$coef[2,4], 5))) +
+  geom_point(size = 2) +
+  geom_line(aes(group=as.factor(Sample))) +  
+  stat_smooth(method = 'lm', formula = y ~ x, level = 0, size = 0.75, col = "black")
+</code></pre></div></div>
+<p>This looks great! The biggest thing that I am looking for here is that there is a fairly linear relationship between all of the points of the standards (check!), our R2 value is above 0.96 (check!) and our p value is significant (check!). Everything looks good!</p>
+
+<p>Next, we need to apply this standard curve to all of our samples in order to determine the abundance of our target in each of them! This function will take the standard curve and apply it to our unknown abundance samples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert &lt;- function(y, b, a){
+  x &lt;- 10^((y - b) / a)
+  x
+}
+</code></pre></div></div>
+
+<p>Now we can run the actual conversion function:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qp1.1$counts &lt;- convert(y = as.numeric(qp1.1$Ct), b = ab1[1], a = ab1[2])
+</code></pre></div></div>
+
+<p>And these two lines will remove any contaminants introduced by reagents or the PCR prep:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>NTC.1 &lt;- qp1.1[grepl('ntc', qp1.1$Sample), ]
+
+NTC.1 &lt;- as.numeric(NTC.1$counts)
+
+NTC.1
+[1] 1.458381
+</code></pre></div></div>
+
+<p>Note that there is a very low abundance of our target in the NTC (no template control). Whether or not this is a major problem for your reaction is very much situation dependent. In this case, the abundance in the NTC is ~significantly~ lower than in any of our actual samples. Additionally, because we are quantifying general bacterial abundance, it is unlikely that the NTC would ever be completely clean, simply because we are covered in bacteria ourselves and can introduce bacteria as we prep the reaction! Comparatively, if you are looking for some rare pathogen and find it highly abundant in your NTC, then you may have a cross-contamination problem and should switch out reagents and rerun the samples!</p>
+
+<p>Now we can look at our final data! (Note: the counts observed in the NTC have been removed even though they are still shown below)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qp1.1
+</code></pre></div></div>
+<p><img align="center" src="/assets/images/qpcr-output.jpg" /></p>
+
+<p>There is clearly a significant drop-off in the detectable abundance of our samples were killed and treated with PMA just as we expected! This is great!</p>
+
+<p>This is definitely not the only way to process qPCR data and likely is not perfect for every application, but it is a fairly standard workflow and is a great starting point! Please do not hesitate to <a href="mailto:pfh@uoregon.edu">reach out</a> with any  questions or concerns!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-24T08:48:41-07:00">September 24, 2020</time></p>
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="mailto:pfh@uoregon.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/patrickhorve" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/phorve" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=goIzEAGPLRwC&hl=en" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-google" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Patrick Finn Horve. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
