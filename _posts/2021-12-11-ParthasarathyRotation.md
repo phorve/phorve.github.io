@@ -78,7 +78,7 @@ Like I mentioned before, there are some potential limitations involved in using 
 
 <img align="right" width="392" height="520" src="/assets/images/ParthasarathyRotation/microscope2.png">
 
-In our experiments, we diluted an overnight culture of Dr. Spero’s pseudomonas 1:1000 in 0.5% agar in a glass cuvette and incubated for 5 hours. We then either added LB as a control or tobramycin and then imaged every ten minutes for the next 8 hours. As we’re imaging, the sample on the stage is moved through space in the Z direction allowing us to take slices in the Z direction to obtain a 3 dimensional image of the growing pseudomonas.
+In our experiments, we diluted an overnight culture of Dr. Spero’s *Pseudomonas* 1:1000 in 0.5% agar in a glass cuvette and incubated for 5 hours. We then either added LB as a control or tobramycin and then imaged every ten minutes for the next 8 hours. As we’re imaging, the sample on the stage is moved through space in the Z direction allowing us to take slices in the Z direction to obtain a 3 dimensional image of the growing pseudomonas.
 
 It’s also important to stress that we had to make a lot of these protocols ourselves - As far as we know, no one else has done 3D time series light sheet imaging on growing microbial communities and we did not know if this was going to work.  
 
@@ -90,11 +90,11 @@ We can track the effects of antibiotics over time by stitching maximum projectio
 
 <iframe src="https://drive.google.com/file/d/1-3RYoIp_cWvRc8CsbLwjnmawsJm8KPi_/preview" width="1000" height="480" allow="autoplay"></iframe>
 
-<iframe src="https://drive.google.com/file/d/1-7bD6fBwTkMgYskvQZeCXpsMJBMaA1B_/preview" width="1000" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1-Nc_zv2Km6f7kC3lK6eKk-pQw3IaSUhu/preview" width="1000" height="480" allow="autoplay"></iframe>
 
 We can also create 3D images of the colonies within the cuvette by combining all of the slices that are taken at a single timepoint. Here, I am showing a single timepoint but this could be used to create a 3D timelapse of the growth and response of the *Pseudomonas* to antibiotic treatment.  
 
-<iframe src="https://drive.google.com/file/d/1-9oUhqfytw2ikFTAOa3K2-t89JoqIGaF/preview" width="1000" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1-OWiAFgqI1QefSpdrqAeLniHW6hzIrto/preview" width="1000" height="480" allow="autoplay"></iframe>
 
 We ran into a lot of difficulties in quantifying these results. One of the major challenges that we faced was being able to identify bacteria as individuals as well as large colonies. These two states of bacterial existence demonstrate a large range of fluorescence intensities and made it difficult to determine the background level of fluorescence from the “true” fluorescence from the bacteria we were interested in. Lastly, it was difficult just to work with this data because of the size of the files. Each timepoint represented about 3.2 GB of data and so a single imaging series meant analyzing ~150GB of data. This presented a real challenge for the analysis.
 
