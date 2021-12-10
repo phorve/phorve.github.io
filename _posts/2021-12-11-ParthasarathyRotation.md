@@ -28,4 +28,8 @@ In research labs, we often find bacteria on plates and in tubes, but this isn’
 
 Previously, others in the lab have used zebrafish since, in the developmental stages when they are being colonized by bacteria, they are transparent. This allows for microscopy from multiple angles to be able to image bacteria in 3D as they colonize and establish themselves within the guts of zebrafish. In this way, you are able to study how bacteria arrange themselves in the guts of the developing zebrafish.  
 
- ![ ](assets/images/ParthasarathyRotation/larvalzebrafish.jpeg)
+ | ![ ](assets/images/ParthasarathyRotation/larvalzebrafish.jpeg)
+
+ |:--:|
+
+ | Sundarraman, et al., 2020 - mBio |
