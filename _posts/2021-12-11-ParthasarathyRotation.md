@@ -30,4 +30,21 @@ Previously, others in the lab have used zebrafish since, in the developmental st
 
  | ![ ](/assets/images/ParthasarathyRotation/larvalzebrafish.jpeg)
  |:--:|
- | Sundarraman, et al., 2020 - https://doi.org/10.1128/mBio.01667-20 |
+ | Sundarraman, et al., 2020 - [https://doi.org/10.1128/mBio.01667-20](https://doi.org/10.1128/mBio.01667-20) |
+
+ However this term, I look at bacterial aggregation in a different system...
+
+ But before getting to my own project, I first need to introduce [Dr. Melanie Spero](https://www.sperolab.org/people)!  
+
+
+<img align="right" width="300" height="300" src="/assets/images/ParthasarathyRotation/Mspero.jpg">
+Dr. Spero just joined the University of Oregon and is in the process of opening her own lab. She is coming to the University of Oregon after working as a postdoc in the [Newman Lab](https://dknweb.caltech.edu/) at CalTech where she began studying how pathogen physiology affects human health outcomes.    
+
+
+Dr. Spero developed a really cool way to image *Pseudomonas aeruginosa* termed the agar block biofilm assay or ABBA. In this assay, bacteria are used to inoculate a piece of agar and allowed the grow into large colonies. Dr. Spero then imaged these bacterial colonies using confocal microscopy. In this first panel, we see the growth of *Pseudomonas* at varying depths within the agar. Closer to the surface of the agar, we see large colonies. As you go deeper into the agar, colony size decreases.
+
+| ![ ](/assets/images/ParthasarathyRotation/sperodata.png)
+|:--:|
+| Spero and Newman, 2018 - [https://doi.org/10.1128/mBio.01400-18](https://doi.org/10.1128/mBio.01400-18)|
+
+Next, Dr. Spero added tobramycin, an antibiotic, to the agar block and then again imaged using the confocal microscope. Here, dead pseudomonas are shown in red and living *Pseudomonas* are shown in cyan. The effect of the tobramycin seemed to follow a depth-dependent pattern. Colonies that were deeper in the agar were not affected by the tobramycin whereas the colonies at the very top of the agar were completely killed. Additionally, colonies at an intermediate depth (i.e. the middle of the agar) seemed to show an intermediate effect where some of the pseudomonas were killed and others were not. Dr. Spero found that there was a significant oxygen gradient from the top of the gel (where oxygen was abundant) to the bottom of the gel (where the environment was basically anoxic).   
