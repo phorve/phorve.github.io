@@ -72,7 +72,7 @@ Like I mentioned before, there are some potential limitations involved in using 
 
  One thing that I didn't mention before is that Raghu and his lab are some of the leaders in using light sheet fluorescence microscopy (LSFM), or light sheet microscopy as I'll call it. In light sheet microscopy, only fluorophores in the focal plane are excited, and their emission is mapped onto a camera. This provides an image of the entire plane at any instant, not just at a point. Because of this, you only also have to scan in a single direction and everything that the light is touching is being detected, increasing the speed of imaging and decreasing potential photobleaching.
 
-<img align="right" width="560" height="450" src="/assets/images/ParthasarathyRotation/chamber.jpg">
+![ ](/assets/images/ParthasarathyRotation/chamber.jpg)
 
  Here is a top view of the imaging stage for the light sheet microscope. The excitation source (the laser!) is on the left and our detection camera that is doing the imaging is on the bottom. This chamber is filled with water and we are able to maintain the chamber at a specific temperature.
 
@@ -84,15 +84,17 @@ It’s also important to stress that we had to make a lot of these protocols our
 
 This is what a single timepoint looks like. Each timepoint takes ~15-20 seconds to acquire. In comparison, an image of the same size would take 10-15 mintues to obtain on a confocal microscope. The movement that you are seeing in the video is each slice that was taken in the Z direction.
 
-<iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview" width=100% height="480" allow="autoplay"></iframe>
 
 We can track the effects of antibiotics over time by stitching maximum projection images from each timepoint. Here are timelapse videos of the pseudomonas for 8 hours after the addition of the antibiotic. This imaging is extremely stable and we are able to track individual colonies over the entire time period. Starting with the tobramycin treated sample on the right, we see large colonies when we first add the tobramycin and see a fairly steady decline in the fluorescence over time, as the tobramycin begins to kill the colonies. In comparison, the control sample show’s consistent fluorescence throughout the course of the time series. There are two potentially interesting dynamics that can be observed in the control sample as opposed to the sample that was treated with Tobramycin. First, you’ll notice that colonies in the control sample begin to move downward. This is then followed by a huge amount of fluorescence entering the frame from the top right. We have observed that the control samples grow thick biofilms right at the surface of the agar air interface. We suspect that this is either placing mechanical stress on the agar and actually pushing the colonies below slightly deeper into the gel. We also lose the ability to observe small colonies and single bacteria as the control sample progresses, either due to a large amount of scattering from the large growth above increasing the overall background fluorescence, or due to lack of oxygen induced by the large growth above. I’ll touch on this later on but wanted to mentioned it now.  
 
-[Insert control and tobramycin videos here]
+<iframe src="https://drive.google.com/file/d/1-3RYoIp_cWvRc8CsbLwjnmawsJm8KPi_/preview" width=100% height="480" allow="autoplay"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1-7bD6fBwTkMgYskvQZeCXpsMJBMaA1B_/preview" width=100% height="480" allow="autoplay"></iframe>
 
 We can also create 3D images of the colonies within the cuvette by combining all of the slices that are taken at a single timepoint. Here, I am showing a single timepoint but this could be used to create a 3D timelapse of the growth and response of the *Pseudomonas* to antibiotic treatment.  
 
-[Insert Imaris here]
+<iframe src="https://drive.google.com/file/d/1-9oUhqfytw2ikFTAOa3K2-t89JoqIGaF/preview" width=100% height="480" allow="autoplay"></iframe>
 
 We ran into a lot of difficulties in quantifying these results. One of the major challenges that we faced was being able to identify bacteria as individuals as well as large colonies. These two states of bacterial existence demonstrate a large range of fluorescence intensities and made it difficult to determine the background level of fluorescence from the “true” fluorescence from the bacteria we were interested in. Lastly, it was difficult just to work with this data because of the size of the files. Each timepoint represented about 3.2 GB of data and so a single imaging series meant analyzing ~150GB of data. This presented a real challenge for the analysis.
 
