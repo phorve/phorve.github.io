@@ -8,9 +8,10 @@ tags:
 - Professional Development
 - Grad School
 ---
-
+### University of Oregon Lab Rotations
 At the University of Oregon (and many other graduate schools throughout the country), the first year of your PhD is dedicated to spending a couple of month in a single lab to get acquainted with the school, different styles and topics of research, and learn what you will want to eventually focus on when you begin to pursue your dissertation. In my case, I will rotate through three different labs and then decide on a final lab hopefully sometime in June 2022. For my first rotation, I joined the Parthasarathy lab!
 
+### The Parthasarathy Lab
 <img align="right" width="600" height="337.5" src="/assets/images/ParthasarathyRotation/raghumicroscope.jpeg">
 The lab is led by Raghuveer Parthasarathy (Raghu), he is awesome! He is extremely knowledgable and was an amazing mentor throughout my time in the lab.
 
@@ -27,6 +28,7 @@ Check out some of the awesome videos that the lab has taken in the past!
 
 - - - - - - - - - -
 
+### Bacteria, antibiotics, and agar *oh my!*
 In research labs, we often find bacteria on plates and in tubes, but this isn’t representative of bacteria in real life. In real life, bacteria grow in 3D and this makes it challenging to study bacteria (and many other microorganisms) as they grow and move in 3 dimensions. While we can obviously grow bacteria easily in 3D, it is difficult to image and observe bacteria in 3 dimensions. This is a problem that the Parthasarathy lab has been working on for a long time.
 
 Previously, others in the lab have used zebrafish since, in the developmental stages when they are being colonized by bacteria, they are transparent. This allows for microscopy from multiple angles to be able to image bacteria in 3D as they colonize and establish themselves within the guts of zebrafish. In this way, you are able to study how bacteria arrange themselves in the guts of the developing zebrafish.  
@@ -39,10 +41,7 @@ Previously, others in the lab have used zebrafish since, in the developmental st
 
  But before getting to my own project, I first need to introduce [Dr. Melanie Spero](https://www.sperolab.org/people)!  
 
-<figure>
 <img align="right" width="300" height="300" src="/assets/images/ParthasarathyRotation/Mspero.jpg">
-<figcaption>Dr. Melanie Spero</figcaption>
-</figure>
 
 Dr. Spero just joined the University of Oregon and is in the process of opening her own lab. She is coming to the University of Oregon after working as a postdoc in the [Newman Lab](https://dknweb.caltech.edu/) at CalTech where she began studying how pathogen physiology affects human health outcomes.    
 
@@ -59,4 +58,9 @@ Like I’ve already mentioned, all of these images were taken using a confocal m
 1. Due to photobleaching effects and phototoxicity to the bacteria, these bacteria were only able to be imaged at a single time point after the addition of the tobramycin.
 2. Also, each image takes 10-15 minutes to obtain, making it difficult to obtain fine resolution time scale experiments even if we could overcome the photobleaching and phototoxicity.
 
-So after talking to Melanie and Raghu, we decided that we could combine the ABBA assay that Dr. Spero developed and the expertise that Raghu has in microscopy
+So after talking to Melanie and Raghu, we decided that we could combine the ABBA assay that Dr. Spero developed and the expertise that Raghu has in microscopy to try to understand how these *Pseudomonas* grow and react to antibiotics. Dr. Spero showed that there is absolutely an oxygen dependent mechanism that underlies the growth of the *Pseudomonas* over time, but this wasn't the only factor that could be contributing to the growth patterns that we are seeing. There is also bacterial competition, bacterial consumption of oxygen outside of the gradient established by the agar, and the potential consumption of nutrients within the agar that could all shape the structure of these bacterial communities. So, just some of the questions that we went into this project hoping that we could start to answer were:
+1. Can we watch colonies over time?
+2. Can we spatialy resolve growth and death over time?
+3. Can we observe bacterial interactions that lead to community structure?
+
+We had no idea if this would work but that's what rotation projects are for!
