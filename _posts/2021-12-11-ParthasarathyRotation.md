@@ -18,7 +18,7 @@ The lab is led by Raghuveer Parthasarathy (Raghu), he is awesome! He is extremel
 The Parthasarathy lab, as described on the lab website, are...
 >"biophysicists exploring the structure and dynamics of biological materials such as cellular membranes, the gut microbiome, and the organs of developing animals. We’re also interested in general questions of how soft materials and complex fluids self-organize. We explore these issues using a variety of techniques, with special emphasis on optical microscopy and computational image analysis"
 
-Check out some of the awesome videos that the lab has taken in the past!
+I wanted to rotate with Raghu and the Parthasarathy lab because I have almost no experience with microscopy and they do almost exclusively microscopy. I wanted to dive head first into something completely new and challenge myself to learn something that I didn't know before. Check out some of the awesome videos that the lab has taken in the past!
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/150706979?h=5707b6a17b" width="640" height="268" frameborder="0" allowfullscreen></iframe>
 
@@ -64,3 +64,20 @@ So after talking to Melanie and Raghu, we decided that we could combine the ABBA
 3. Can we observe bacterial interactions that lead to community structure?
 
 We had no idea if this would work but that's what rotation projects are for!
+
+### Okay... but Patrick... What have you been doing for the last 3 months?
+Like I mentioned before, there are some potential limitations involved in using confocal microscopy. In confocal microscopy, the microscope scans in all 3 direction (x, y, and z) in order to obtain the image. Essentially, a confocal microscope is only imaging a single point at any single time but fluorophores outside this point are excited but not imaged, leading to photobleaching and phototoxicity.
+
+ <img align="right" width="732" height="388" src="/assets/images/ParthasarathyRotation/microscopes.png">
+
+ One thing that I didn't mention before is that Raghu and his lab are some of the leaders in using light sheet fluorescence microscopy (LSFM), or light sheet microscopy as I'll call it. In light sheet microscopy, only fluorophores in the focal plane are excited, and their emission is mapped onto a camera. This provides an image of the entire plane at any instant, not just at a point. Because of this, you only also have to scan in a single direction and everything that the light is touching is being detected, increasing the speed of imaging and decreasing potential photobleaching.
+
+<img align="right" width="500" height="400" src="/assets/images/ParthasarathyRotation/chamber.jpg">
+
+ Here is a top view of the imaging stage for the light sheet microscope. The excitation source (the laser!) is on the left and our detection camera that is doing the imaging is on the bottom. This chamber is filled with water and we are able to maintain the chamber at a specific temperature.
+
+<img align="left" width="392" height="520" src="/assets/images/ParthasarathyRotation/microscope2.png">
+
+In our experiments, we diluted an overnight culture of Dr. Spero’s pseudomonas 1:1000 in 0.5% agar in a glass cuvette and incubated for 5 hours. We then either added LB as a control or tobramycin and then imaged every ten minutes for the next 8 hours. As we’re imaging, the sample on the stage is moved through space in the Z direction allowing us to take slices in the Z direction to obtain a 3 dimensional image of the growing pseudomonas.
+
+It’s also important to stress that we had to make a lot of these protocols ourselves - As far as we know, no oen e\else has done 3D time series light sheet imaging on growing microbial communities and we did not know if this was going to work.  
