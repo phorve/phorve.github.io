@@ -80,4 +80,4 @@ Like I mentioned before, there are some potential limitations involved in using 
 
 In our experiments, we diluted an overnight culture of Dr. Spero’s pseudomonas 1:1000 in 0.5% agar in a glass cuvette and incubated for 5 hours. We then either added LB as a control or tobramycin and then imaged every ten minutes for the next 8 hours. As we’re imaging, the sample on the stage is moved through space in the Z direction allowing us to take slices in the Z direction to obtain a 3 dimensional image of the growing pseudomonas.
 
-It’s also important to stress that we had to make a lot of these protocols ourselves - As far as we know, no oen e\else has done 3D time series light sheet imaging on growing microbial communities and we did not know if this was going to work.  
+It’s also important to stress that we had to make a lot of these protocols ourselves - As far as we know, no one else has done 3D time series light sheet imaging on growing microbial communities and we did not know if this was going to work.  
