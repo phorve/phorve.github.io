@@ -72,7 +72,7 @@ Like I mentioned before, there are some potential limitations involved in using 
 
  One thing that I didn't mention before is that Raghu and his lab are some of the leaders in using light sheet fluorescence microscopy (LSFM), or light sheet microscopy as I'll call it. In light sheet microscopy, only fluorophores in the focal plane are excited, and their emission is mapped onto a camera. This provides an image of the entire plane at any instant, not just at a point. Because of this, you only also have to scan in a single direction and everything that the light is touching is being detected, increasing the speed of imaging and decreasing potential photobleaching.
 
-<img align="right" width="500" height="400" src="/assets/images/ParthasarathyRotation/chamber.jpg">
+<img align="right" width="560" height="450" src="/assets/images/ParthasarathyRotation/chamber.jpg">
 
  Here is a top view of the imaging stage for the light sheet microscope. The excitation source (the laser!) is on the left and our detection camera that is doing the imaging is on the bottom. This chamber is filled with water and we are able to maintain the chamber at a specific temperature.
 
