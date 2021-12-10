@@ -11,7 +11,10 @@ tags:
 
 At the University of Oregon (and many other graduate schools throughout the country), the first year of your PhD is dedicated to spending a couple of month in a single lab to get acquainted with the school, different styles and topics of research, and learn what you will want to eventually focus on when you begin to pursue your dissertation. In my case, I will rotate through three different labs and then decide on a final lab hopefully sometime in June 2022. For my first rotation, I joined the Parthasarathy lab!
 
-The Parthasarathy lab, as described on their website, are...
+<img align="right" width="600" height="337.5" src="/assets/images/ParthasarathyRotation/raghumicroscope.jpeg">
+The lab is led by Raghuveer Parthasarathy (Raghu), he is awesome! He is extremely knowledgable and was an amazing mentor throughout my time in the lab.
+
+The Parthasarathy lab, as described on the lab website, are...
 >"biophysicists exploring the structure and dynamics of biological materials such as cellular membranes, the gut microbiome, and the organs of developing animals. We’re also interested in general questions of how soft materials and complex fluids self-organize. We explore these issues using a variety of techniques, with special emphasis on optical microscopy and computational image analysis"
 
 Check out some of the awesome videos that the lab has taken in the past!
@@ -36,8 +39,11 @@ Previously, others in the lab have used zebrafish since, in the developmental st
 
  But before getting to my own project, I first need to introduce [Dr. Melanie Spero](https://www.sperolab.org/people)!  
 
-
+<figure>
 <img align="right" width="300" height="300" src="/assets/images/ParthasarathyRotation/Mspero.jpg">
+<figcaption>Dr. Melanie Spero</figcaption>
+</figure>
+
 Dr. Spero just joined the University of Oregon and is in the process of opening her own lab. She is coming to the University of Oregon after working as a postdoc in the [Newman Lab](https://dknweb.caltech.edu/) at CalTech where she began studying how pathogen physiology affects human health outcomes.    
 
 
@@ -48,3 +54,9 @@ Dr. Spero developed a really cool way to image *Pseudomonas aeruginosa* termed t
 | Spero and Newman, 2018 - [https://doi.org/10.1128/mBio.01400-18](https://doi.org/10.1128/mBio.01400-18)|
 
 Next, Dr. Spero added tobramycin, an antibiotic, to the agar block and then again imaged using the confocal microscope. Here, dead pseudomonas are shown in red and living *Pseudomonas* are shown in cyan. The effect of the tobramycin seemed to follow a depth-dependent pattern. Colonies that were deeper in the agar were not affected by the tobramycin whereas the colonies at the very top of the agar were completely killed. Additionally, colonies at an intermediate depth (i.e. the middle of the agar) seemed to show an intermediate effect where some of the pseudomonas were killed and others were not. Dr. Spero found that there was a significant oxygen gradient from the top of the gel (where oxygen was abundant) to the bottom of the gel (where the environment was basically anoxic).   
+
+Like I’ve already mentioned, all of these images were taken using a confocal microscope. However, there are some downsides to consider with confocal microscopy.
+1. Due to photobleaching effects and phototoxicity to the bacteria, these bacteria were only able to be imaged at a single time point after the addition of the tobramycin.
+2. Also, each image takes 10-15 minutes to obtain, making it difficult to obtain fine resolution time scale experiments even if we could overcome the photobleaching and phototoxicity.
+
+So after talking to Melanie and Raghu, we decided that we could combine the ABBA assay that Dr. Spero developed and the expertise that Raghu has in microscopy
