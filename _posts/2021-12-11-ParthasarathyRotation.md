@@ -1,6 +1,7 @@
 ---
 title: "Fall Term Update: Parthasarathy Lab Rotation"
 date: 2021-12-11T15:34:30-04:00
+classes: wide
 categories:
   - blog
 tags:
