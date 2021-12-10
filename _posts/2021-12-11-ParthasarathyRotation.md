@@ -118,8 +118,8 @@ I couldn't have done any of this without the help of everyone in the [Parthasara
 
 ### Pictures from Fall Term
 
-| ![ ](/assets/images/ParthasarathyRotation/sperodata.png) | ![ ](/assets/images/ParthasarathyRotation/IMG_2469.jpg)
+| ![ ](/assets/images/ParthasarathyRotation/IMG_2488.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2469.jpg)
 | ![ ](/assets/images/ParthasarathyRotation/IMG_2487.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2488.jpg)
 | ![ ](/assets/images/ParthasarathyRotation/IMG_2550.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2594.jpg)
 | ![ ](/assets/images/ParthasarathyRotation/IMG_2681.jpg) | ![ ](/assets/images/ParthasarathyRotation/IMG_2685.jpg)
-| ![ ](/assets/images/ParthasarathyRotation/IMG_2705.jpg) | ![ ](/assets/images/ParthasarathyRotation/pic1.jpg)
+| ![ ](/assets/images/ParthasarathyRotation/IMG_2705.jpg) | ![ ](/assets/images/ParthasarathyRotation/pic1.JPG)
