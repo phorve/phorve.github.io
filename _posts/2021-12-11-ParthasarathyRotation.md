@@ -94,7 +94,7 @@ We can track the effects of antibiotics over time by stitching maximum projectio
 
 We can also create 3D images of the colonies within the cuvette by combining all of the slices that are taken at a single timepoint. Here, I am showing a single timepoint but this could be used to create a 3D timelapse of the growth and response of the *Pseudomonas* to antibiotic treatment.  
 
-{% include video id="1-OWiAFgqI1QefSpdrqAeLniHW6hzIrto" provider="google-drive" %}
+{% include video id="1-9oUhqfytw2ikFTAOa3K2-t89JoqIGaF" provider="google-drive" %}
 
 We ran into a lot of difficulties in quantifying these results. One of the major challenges that we faced was being able to identify bacteria as individuals as well as large colonies. These two states of bacterial existence demonstrate a large range of fluorescence intensities and made it difficult to determine the background level of fluorescence from the “true” fluorescence from the bacteria we were interested in. Lastly, it was difficult just to work with this data because of the size of the files. Each timepoint represented about 3.2 GB of data and so a single imaging series meant analyzing ~150GB of data. This presented a real challenge for the analysis.
 
