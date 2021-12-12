@@ -21,7 +21,7 @@ The Parthasarathy lab, as described on the lab website, are...
 
 I wanted to rotate with Raghu and the Parthasarathy lab because I have almost no experience with microscopy and they do almost exclusively microscopy. I wanted to dive head first into something completely new and challenge myself to learn something that I didn't know before. Check out some of the awesome videos that the lab has taken in the past!
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/150706979?h=5707b6a17b" width="640" height="268" frameborder="0" allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/150706979?h=5707b6a17b" width="640" height="320" frameborder="0" allowfullscreen></iframe>
 
 - - - - - - - - - -
 
@@ -86,7 +86,7 @@ It’s also important to stress that we had to make a lot of these protocols our
 This is what a single timepoint looks like. Each timepoint takes ~15-20 seconds to acquire. In comparison, an image of the same size would take 10-15 mintues to obtain on a confocal microscope. The movement that you are seeing in the video is each slice that was taken in the Z direction.
 
 
-Testing a new iframe version 3.1
+Testing a new iframe version 3.2
 
 {% include googleDrivePlayer.html id=page.driveId %}
 <iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview"></iframe>
