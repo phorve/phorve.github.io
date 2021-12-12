@@ -7,6 +7,9 @@ categories:
 tags:
 - Professional Development
 - Grad School
+image:
+  feature: /assets/images/ParthasarathyRotation/IMG_2488.jpg
+  thumb: /assets/images/ParthasarathyRotation/IMG_2488.jpg
 ---
 ### University of Oregon Lab Rotations
 At the University of Oregon (and many other graduate schools throughout the country), the first year of your PhD is dedicated to spending a couple of month in a single lab to get acquainted with the school, different styles and topics of research, and learn what you will want to eventually focus on when you begin to pursue your dissertation. In my case, I will rotate through three different labs and then decide on a final lab hopefully sometime in June 2022. For my first rotation, I joined the Parthasarathy lab!
