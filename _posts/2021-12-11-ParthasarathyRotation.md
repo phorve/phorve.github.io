@@ -7,6 +7,7 @@ categories:
 tags:
 - Professional Development
 - Grad School
+driveId: horves16@gmail.com
 ---
 ### University of Oregon Lab Rotations
 At the University of Oregon (and many other graduate schools throughout the country), the first year of your PhD is dedicated to spending a couple of month in a single lab to get acquainted with the school, different styles and topics of research, and learn what you will want to eventually focus on when you begin to pursue your dissertation. In my case, I will rotate through three different labs and then decide on a final lab hopefully sometime in June 2022. For my first rotation, I joined the Parthasarathy lab!
@@ -85,9 +86,11 @@ It’s also important to stress that we had to make a lot of these protocols our
 This is what a single timepoint looks like. Each timepoint takes ~15-20 seconds to acquire. In comparison, an image of the same size would take 10-15 mintues to obtain on a confocal microscope. The movement that you are seeing in the video is each slice that was taken in the Z direction.
 
 
-Testing a new iframe version 2.1
+Testing a new iframe version 3
 
-<iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview" min-width=100% width="850" height="480" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+{% include googleDrivePlayer.html id=page.driveId %}
+<iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview"></iframe>
+
 
 We can track the effects of antibiotics over time by stitching maximum projection images from each timepoint. Here are timelapse videos of the *Pseudomonas* for 8 hours after the addition of the antibiotic. This imaging is extremely stable and we are able to track individual colonies over the entire time period. Starting with the tobramycin treated sample on the bottom, we see large colonies when we first add the tobramycin and see a fairly steady decline in the fluorescence over time, as the tobramycin begins to kill the colonies. In comparison, the control sample shows consistent fluorescence throughout the course of the time series. There are two potentially interesting dynamics that can be observed in the control sample as opposed to the sample that was treated with Tobramycin. First, you’ll notice that colonies in the control sample begin to move downward. This is then followed by a huge amount of fluorescence entering the frame from the top right. We observed that the control samples grow thick biofilms right at the surface of the agar air interface. We suspect that this is either placing mechanical stress on the agar and actually pushing the colonies below slightly deeper into the gel. We also lose the ability to observe small colonies and single bacteria as the control sample progresses, either due to a large amount of scattering from the large growth above increasing the overall background fluorescence, or due to lack of oxygen induced by the large growth above. I’ll touch on this later on but wanted to mentioned it now.  
 
