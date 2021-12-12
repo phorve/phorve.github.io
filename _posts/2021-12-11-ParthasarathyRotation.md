@@ -59,7 +59,7 @@ Like I’ve already mentioned, all of these images were taken using a confocal m
 2. Also, each image takes 10-15 minutes to obtain, making it difficult to obtain fine resolution time scale experiments even if we could overcome the photobleaching and phototoxicity.
 
 ### Okay... but Patrick... What have you been doing for the last 3 months?
-Like I mentioned before, there are some potential limitations involved in using confocal microscopy. In confocal microscopy, the microscope scans in all 3 direction (x, y, and z) in order to obtain the image. Essentially, a confocal microscope is only imaging a single point at any single time but fluorophores outside this point are excited but not imaged, leading to photobleaching and phototoxicity.
+In confocal microscopy, the microscope scans in all 3 direction (x, y, and z) in order to obtain the image. Essentially, a confocal microscope is only imaging a single point at any single time but fluorophores outside this point are excited but not imaged, leading to photobleaching and phototoxicity.
 
  <img align="right" width="732" height="388" src="/assets/images/ParthasarathyRotation/microscopes.png">
 
