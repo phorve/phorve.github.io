@@ -58,19 +58,19 @@ Like I’ve already mentioned, all of these images were taken using a confocal m
 1. Due to photobleaching effects and phototoxicity to the bacteria, these bacteria were only able to be imaged at a single time point after the addition of the tobramycin.
 2. Also, each image takes 10-15 minutes to obtain, making it difficult to obtain fine resolution time scale experiments even if we could overcome the photobleaching and phototoxicity.
 
-So after talking to Melanie and Raghu, we decided that we could combine the ABBA assay that Dr. Spero developed and the expertise that Raghu has in microscopy to try to understand how these *Pseudomonas* grow and react to antibiotics. Dr. Spero showed that there is absolutely an oxygen dependent mechanism that underlies the growth of the *Pseudomonas* over time, but this wasn't the only factor that could be contributing to the growth patterns that we are seeing. There is also bacterial competition, bacterial consumption of oxygen outside of the gradient established by the agar, and the potential consumption of nutrients within the agar that could all shape the structure of these bacterial communities. So, just some of the questions that we went into this project hoping that we could start to answer were:
-1. Can we watch colonies over time?
-2. Can we spatialy resolve growth and death over time?
-3. Can we observe bacterial interactions that lead to community structure?
-
-We had no idea if this would work but that's what rotation projects are for!
-
 ### Okay... but Patrick... What have you been doing for the last 3 months?
 Like I mentioned before, there are some potential limitations involved in using confocal microscopy. In confocal microscopy, the microscope scans in all 3 direction (x, y, and z) in order to obtain the image. Essentially, a confocal microscope is only imaging a single point at any single time but fluorophores outside this point are excited but not imaged, leading to photobleaching and phototoxicity.
 
  <img align="right" width="732" height="388" src="/assets/images/ParthasarathyRotation/microscopes.png">
 
  One thing that I didn't mention before is that Raghu and his lab are some of the leaders in using light sheet fluorescence microscopy (LSFM), or light sheet microscopy as I'll call it. In light sheet microscopy, only fluorophores in the focal plane are excited, and their emission is mapped onto a camera. This provides an image of the entire plane at any instant, not just at a point. Because of this, you only also have to scan in a single direction and everything that the light is touching is being detected, increasing the speed of imaging and decreasing potential photobleaching.
+
+ So after talking to Melanie and Raghu, we decided that we could combine the ABBA assay that Dr. Spero developed and the expertise that Raghu has in microscopy to try to understand how these *Pseudomonas* grow and react to antibiotics. Dr. Spero showed that there is absolutely an oxygen dependent mechanism that underlies the growth of the *Pseudomonas* over time, but this wasn't the only factor that could be contributing to the growth patterns that we are seeing. There is also bacterial competition, bacterial consumption of oxygen outside of the gradient established by the agar, and the potential consumption of nutrients within the agar that could all shape the structure of these bacterial communities. So, just some of the questions that we went into this project hoping that we could start to answer were:
+ 1. Can we watch colonies over time?
+ 2. Can we spatialy resolve growth and death over time?
+ 3. Can we observe bacterial interactions that lead to community structure?
+
+ We had no idea if this would work but that's what rotation projects are for!
 
 ![ ](/assets/images/ParthasarathyRotation/chamber.jpg)
 
