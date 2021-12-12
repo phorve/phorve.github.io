@@ -7,7 +7,7 @@ categories:
 tags:
 - Professional Development
 - Grad School
-driveId: horves16@gmail.com
+driveId: 1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview
 ---
 ### University of Oregon Lab Rotations
 At the University of Oregon (and many other graduate schools throughout the country), the first year of your PhD is dedicated to spending a couple of month in a single lab to get acquainted with the school, different styles and topics of research, and learn what you will want to eventually focus on when you begin to pursue your dissertation. In my case, I will rotate through three different labs and then decide on a final lab hopefully sometime in June 2022. For my first rotation, I joined the Parthasarathy lab!
@@ -86,7 +86,7 @@ It’s also important to stress that we had to make a lot of these protocols our
 This is what a single timepoint looks like. Each timepoint takes ~15-20 seconds to acquire. In comparison, an image of the same size would take 10-15 mintues to obtain on a confocal microscope. The movement that you are seeing in the video is each slice that was taken in the Z direction.
 
 
-Testing a new iframe version 3
+Testing a new iframe version 3.1
 
 {% include googleDrivePlayer.html id=page.driveId %}
 <iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview"></iframe>
