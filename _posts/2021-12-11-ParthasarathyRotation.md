@@ -86,7 +86,7 @@ It’s also important to stress that we had to make a lot of these protocols our
 This is what a single timepoint looks like. Each timepoint takes ~15-20 seconds to acquire. In comparison, an image of the same size would take 10-15 mintues to obtain on a confocal microscope. The movement that you are seeing in the video is each slice that was taken in the Z direction.
 
 
-Testing a new iframe version 3.2
+Testing a new iframe version 3.3
 
 {% include googleDrivePlayer.html id=page.driveId %}
 <iframe src="https://drive.google.com/file/d/1-1wgwkhxoVlcCHKXsJD638iZnkdbuuF_/preview"></iframe>
