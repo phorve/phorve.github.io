@@ -4,6 +4,7 @@ library(tidyverse)
 library(gsheet)
 library(zoo)
 library(plyr)
+library(htmlwidgets)
 
 # Set variables we'll need later 
 date = format(Sys.time(), "%Y%m%d")
@@ -44,11 +45,29 @@ summary = data.frame("State" = summary_state_positive$State,
                             "Cases" = summary_state_positive$Cases, 
                             "Percent" = ((summary_state_positive$Cases/summary_state_all$Cases)*100))
 
+# Fix the state names 
+summary$State = toupper(summary$State)
+summary$State = state.name[match(summary$State,state.abb)]
+
 # Calculate rolling averages 
-rolling <- data %>%
+rolling <- summary %>%
   dplyr::arrange(desc(State)) %>% 
   dplyr::group_by(State) %>% 
-  dplyr::mutate(death_03da = zoo::rollmean(deaths, k = 7, fill = NA) %>% 
+  dplyr::mutate(Cases = zoo::rollmean(Cases, k = 7, fill = NA)) %>% 
                   dplyr::ungroup()
                 
-# Make our plot over time 
+# Make our plot over time states
+states = ggplot(summary, aes(Date, Cases)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~State) +
+  theme_classic()
+out = ggplotly(states)
+saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/p1.html", selfcontained = T, libdir = "lib")
+
+htmltools::tags$iframe(
+  src = "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/p1.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "0"
+)
