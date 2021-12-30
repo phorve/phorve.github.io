@@ -10,6 +10,6 @@ This page hosts the updated data collected through this public google form for C
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG5DY2eHGQgixh6jI_eA71xkugTgzyuySeTX6rjA_yx-3-gg/viewform?embedded=true" width="1200" height="1501" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-data upload V4...
+data upload V5...
 
-<iframe src="COVIDHome_R/html/p1.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
+<iframe src="/COVIDHome_R/html/p1.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
