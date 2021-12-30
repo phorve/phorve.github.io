@@ -64,10 +64,3 @@ states = ggplot(summary, aes(Date, Cases)) +
   theme_classic()
 out = ggplotly(states)
 saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/p1.html", selfcontained = T, libdir = "lib")
-
-htmltools::tags$iframe(
-  src = "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/p1.html", 
-  scrolling = "no", 
-  seamless = "seamless",
-  frameBorder = "0"
-)
