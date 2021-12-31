@@ -115,6 +115,7 @@ t = ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   geom_bar(stat = "identity") +
   scale_fill_npg() +
   theme_classic() +
+  ylab("Test Type") +
   theme(axis.text.x=element_blank(), 
         legend.position="bottom") +
   ggtitle("Type of Each Test Reported") +
