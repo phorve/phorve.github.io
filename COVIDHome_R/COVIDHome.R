@@ -115,7 +115,8 @@ t = ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   geom_bar(stat = "identity") +
   scale_fill_npg() +
   theme_classic() +
-  theme(axis.text.x = element_text(size = 4), legend.position="bottom") +
+  theme(axis.text.x=element_blank(), 
+        legend.position="bottom") +
   ggtitle("Type of Each Test Reported") +
   theme(plot.title = element_text(hjust = 0.5))
 out1 = ggplotly(t)
