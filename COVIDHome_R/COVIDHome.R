@@ -48,9 +48,11 @@ if(test == FALSE){
 r = ggplot(rollingcount, aes(Date, Tests)) +
   geom_bar(stat = "identity") +
   theme_classic() +
-  ylab("Total Tests Reported")
+  ylab("Total Tests Reported") +
+  ggtitle("Total Tests Reported") +
+  theme(plot.title = element_text(hjust = 0.5))
 out2 = ggplotly(r)
-saveWidget(out2, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p2.html", selfcontained = T, libdir = "lib")
+saveWidget(out2, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p3.html", selfcontained = T, libdir = "lib")
 
 # Summarize the testing data 
 tests = data %>%
@@ -86,7 +88,9 @@ tests_final = rbind(abbott, Quidel, iHealth, Ellume, On)
 
 t = ggplot(tests_final, aes(x = Test, y = Tests)) +
   geom_bar(stat = "identity") +
-  theme_classic()
+  theme_classic() +
+  ggtitle("Type of Each Test Reported") +
+  theme(plot.title = element_text(hjust = 0.5))
 out1 = ggplotly(t)
 saveWidget(out1, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p2.html", selfcontained = T, libdir = "lib")
 
@@ -122,7 +126,9 @@ states = ggplot(summary, aes(Date, Cases)) +
   geom_line() +
   facet_wrap(~State) +
   theme_classic() +
-  ylab("Positive Rapid Tests")
+  ylab("Positive Rapid Tests") +
+  ggtitle("Positive Tests per State") +
+  theme(plot.title = element_text(hjust = 0.5))
 out = ggplotly(states)
 saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p1.html", selfcontained = T, libdir = "lib")
 
