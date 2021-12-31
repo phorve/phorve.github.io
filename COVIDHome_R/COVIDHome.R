@@ -107,12 +107,8 @@ summary = data.frame("State" = summary_state_positive$State,
                             "County" = summary_state_positive$County,
                             "City" = summary_state_positive$City, 
                             "Date" = as.Date.character(summary_state_positive$Date, "%m/%d/%y"), 
-                            "Cases" = summary_state_positive$Cases, 
-                            "Percent" = ((summary_state_positive$Cases/summary_state_all$Cases)*100))
-
-# Fix the state names 
-summary$State = toupper(summary$State)
-summary$State = state.name[match(summary$State,state.abb)]
+                            "Cases" = summary_state_positive$Cases)#, 
+                            #"Percent" = ((summary_state_positive$Cases/summary_state_all$Cases)*100))
 
 # Calculate rolling averages 
 rolling <- summary %>%
@@ -133,7 +129,7 @@ states = ggplot(summary, aes(Date, Cases)) +
 out = ggplotly(states)
 saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p1.html", selfcontained = T, libdir = "lib")
 
-# Output data to google for public viewing 
+# Output data to google for public access 
 output1 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/rawdata/rawdata_", date, ".csv", sep = "")
 output2 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/summarydata/summarydata_", date, ".csv", sep = "")
 output3 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/testdata/testdata_", date, ".csv", sep = "")
