@@ -5,6 +5,7 @@ library(gsheet)
 library(zoo)
 library(plyr)
 library(htmlwidgets)
+library(git2r)
 
 # Set variables we'll need later 
 date = format(Sys.time(), "%Y%m%d")
