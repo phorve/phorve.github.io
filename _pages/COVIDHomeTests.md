@@ -10,16 +10,16 @@ header:
 
 This page hosts the updated data collected through this public google form for COVID-19 at-home rapid tests. Please consider sharing [the link](https://forms.gle/KCk5hEujYQebfVwPA) so we can better grow this initiative! All data (see below) and [code](https://github.com/phorve/phorve.github.io/blob/main/COVIDHome_R/COVIDHome.R) is made completely available!  
 
-<iframe src="/COVIDHome_R/html/p3.html" frameborder="0" scrolling="no" width="180px" height="512" align="left">
+<iframe src="/COVIDHome_R/html/p3.html" frameborder="0" scrolling="no" width="600" height="512" align="left">
 </iframe>
 
-<iframe src="/COVIDHome_R/html/p4.html" frameborder="0" scrolling="no" width="180px" height="512" align="right">
+<iframe src="/COVIDHome_R/html/p4.html" frameborder="0" scrolling="no" width="600" height="512" align="right">
 </iframe>
 
-<iframe src="/COVIDHome_R/html/p1.html" frameborder="0" scrolling="no" width="180px" height="512" align="left">
+<iframe src="/COVIDHome_R/html/p1.html" frameborder="0" scrolling="no" width="600" height="512" align="left">
 </iframe>
 
-<iframe src="/COVIDHome_R/html/p2.html" frameborder="0" scrolling="no" width="180px" height="512" align="right">
+<iframe src="/COVIDHome_R/html/p2.html" frameborder="0" scrolling="no" width="600" height="512" align="right">
 </iframe>
 
 
