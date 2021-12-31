@@ -5,6 +5,8 @@ main:
     url: /CV/
   - title: "Posts"
     url: /posts/
+  - title: "COVID-19 Tracking"
+    url: /COVIDHomeTests/
   - title: "Bioinformatics"
     url: /bioinformatics/
   - title: "Books I've Read"
