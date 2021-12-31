@@ -34,6 +34,27 @@ data <- data[-c(1),]
 data$Positive<-ifelse(data$Positive=="Yes",1,0)
 data
 
+# Count positives and negatives 
+positives = data %>%
+  filter(Positive == 1)
+
+negatives = data %>%
+  filter(Positive == 0)
+
+pn.data = data.frame("Result" = c("Negative", "Positive"), 
+                     "n" = c(nrow(negatives), nrow(positives)))
+
+pn.plot = ggplot(pn.data, aes(Result, n, fill = Result)) +
+  geom_bar(stat = "identity") +
+  theme_classic() +
+  ylab("Total Tests Reported") +
+  scale_fill_npg() +
+  xlab("Reported Result") +
+  ggtitle("Positive and Negative Test Comparison") +
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none")
+out4 = ggplotly(pn.plot)
+saveWidget(out4, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p4.html", selfcontained = T, libdir = "lib")
+
 #Count the total number of reported tests 
 rollingcount = read.csv("/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
 today = nrow(rollingcount)
@@ -123,10 +144,9 @@ rolling <- summary %>%
                   dplyr::ungroup()
                 
 # Make our plot over time states
-states = ggplot(summary, aes(Date, Cases)) +
-  geom_point() +
-  geom_line() +
-  facet_wrap(~State) +
+states = ggplot(summary, aes(Date, Cases, fill = State)) +
+  geom_bar(stat = "identity") +
+  #facet_wrap(~State) + # removed 12/31/2021
   theme_classic() +
   ylab("Positive Rapid Tests") +
   ggtitle("Positive Tests per State") +
