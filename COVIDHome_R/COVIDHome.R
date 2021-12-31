@@ -22,8 +22,8 @@ a = str_replace(a, "Did you test positive for COVID-19\\?", "Positive")
 a = str_replace(a, "What country are you in\\?", "Country")
 a = str_replace(a, "What state are you in\\? (Choose NA if not in U.S.)", "State")
 a = str_replace(a, "What state/region/province are you in? (Write 'NA' if in U.S.)", "State")
-a = str_replace(a, "What county are you in\\?", "County")
-a = str_replace(a, "What city are you in\\?", "City")
+a = str_replace(a, "What county (or equivalent) are you in\\?", "County")
+a = str_replace(a, "What city (or equivalent) are you in\\?", "City")
 
 # Make the data into a dataframe 
 data <- as.data.frame(read.table(text = a, sep = sep), skip = 2, headers = T)
