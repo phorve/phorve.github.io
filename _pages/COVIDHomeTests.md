@@ -10,6 +10,8 @@ header:
 
 This page hosts the updated data collected through this public google form for COVID-19 at-home rapid tests. Please consider sharing the link so we can better grow this initiative! All data and code is made completely available!  
 
+<iframe src="/COVIDHome_R/html/p3.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
+
 <iframe src="/COVIDHome_R/html/p2.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
 
 <iframe src="/COVIDHome_R/html/p1.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
