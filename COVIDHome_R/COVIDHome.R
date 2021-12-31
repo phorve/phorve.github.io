@@ -34,10 +34,10 @@ data
 
 #Count the total number of reported tests 
 rollingcount = read.csv("/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
-today = nrow(data)-1
+today = nrow(rollingcount)
 
 test1 = rollingcount[today, 1]
-test2 = format(Sys.time(), "%Y-%m-%d")
+test2 = format(Sys.time(), "%m/%d/%y")
 test = test1==test2
 if(test == FALSE){
   hold.table = data.frame("Date" = format(Sys.time(), "%Y-%m-%d"), 
