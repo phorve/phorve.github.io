@@ -5,6 +5,7 @@ library(gsheet)
 library(zoo)
 library(plyr)
 library(htmlwidgets)
+library(ggsci)
 
 # Set variables we'll need later 
 date = format(Sys.time(), "%Y%m%d")
@@ -91,7 +92,8 @@ t = ggplot(tests_final, aes(x = Test, y = Tests)) +
   geom_bar(stat = "identity") +
   theme_classic() +
   ggtitle("Type of Each Test Reported") +
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_npg()
 out1 = ggplotly(t)
 saveWidget(out1, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p2.html", selfcontained = T, libdir = "lib")
 
