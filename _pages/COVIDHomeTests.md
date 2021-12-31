@@ -12,7 +12,7 @@ This page hosts the updated data collected through this public google form for C
 
 <div class="box"><iframe src="/COVIDHome_R/html/p3.html" frameborder="0" scrolling="no" width="100%" height="512" align="left"> </iframe> </div>
 
-<div class="box">    <iframe src="/COVIDHome_R/html/p3.html" frameborder="0" scrolling="no" width="100%" height="512" align="right">
+<div class="box">    <iframe src="/COVIDHome_R/html/p4.html" frameborder="0" scrolling="no" width="100%" height="512" align="right">
     </iframe>
 </div>
 <div class="clear"></div>
