@@ -5,7 +5,6 @@ library(gsheet)
 library(zoo)
 library(plyr)
 library(htmlwidgets)
-library(git2r)
 
 # Set variables we'll need later 
 date = format(Sys.time(), "%Y%m%d")
@@ -71,21 +70,22 @@ Quidel = data %>%
 Quidel = ddply(Quidel, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
 iHealth = data %>%
-  filter(Test == "iHealth Covid-19 Antigen Rapid
-Test")
+  filter(Test == "iHealth Covid-19 Antigen Rapid Test")
 iHealth = ddply(iHealth, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
 Ellume = data %>%
-  filter(Test == "Ellume Covid-19 Rapid Antigen
-Home Test")
+  filter(Test == "Ellume Covid-19 Rapid Antigen Home Test")
 Ellume = ddply(Ellume, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
 On = data %>%
-  filter(Test == "On/Go At-Home Covid-19
-Rapid Self-Test")
+  filter(Test == "On/Go At-Home Covid-19 Rapid Self-Test")
 On = ddply(On, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
-tests_final = rbind(abbott, Quidel, iHealth, Ellume, On)
+CVX = data %>%
+  filter(Test == "PCR CVX")
+CVX = ddply(CVX, .(Test), .drop=TRUE, summarise, Tests = length(Test))
+
+tests_final = rbind(abbott, Quidel, iHealth, Ellume, On, CVX)
 
 t = ggplot(tests_final, aes(x = Test, y = Tests)) +
   geom_bar(stat = "identity") +
