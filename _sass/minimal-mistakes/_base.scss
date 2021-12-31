@@ -355,3 +355,11 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/*
+Side by side iframes
+========================================================================== */
+.box{
+    width:200px;
+    float:left;
+}
