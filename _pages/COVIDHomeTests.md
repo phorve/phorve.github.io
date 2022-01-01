@@ -8,7 +8,9 @@ header:
 ---
 # COVID-19 At-Home Rapid Test Tracker
 
-This page hosts the updated data collected through this public google form for COVID-19 at-home rapid tests. Please consider sharing [the link](https://forms.gle/KCk5hEujYQebfVwPA) so we can better grow this initiative! All data (see below) and [code](https://github.com/phorve/phorve.github.io/blob/main/COVIDHome_R/COVIDHome.R) is made completely available!  
+Currently, COVID-19 cases are dramatically increasing above levels that we’ve seen previously. There has also been a recent uptick in the amount of rapid at-home tests being used. However, all official counts for COVID-19 cases only include PCR tests and a small subset of rapid tests, making estimating the true impact of SARS-CoV-2 and the temporal dynamics of spread difficult to estimate. All official counts for COVID-19 cases only include PCR tests and a very small subset of rapid tests. This means that all of the case numbers you see on the news don’t include the majority of rapid tests! I’m trying to change that!
+
+This page hosts the  data collected through [this public google form](https://forms.gle/KCk5hEujYQebfVwPA) for COVID-19 at-home rapid tests. Please consider sharing the link so we can better grow this initiative! All data (see below) and [code](https://github.com/phorve/phorve.github.io/blob/main/COVIDHome_R/COVIDHome.R) is made completely available!  
 
 <iframe src="/COVIDHome_R/html/p5.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
 
