@@ -6,6 +6,7 @@ library(zoo)
 library(plyr)
 library(htmlwidgets)
 library(ggsci)
+library(maps)
 
 # Set variables we'll need later 
 date = format(Sys.time(), "%Y%m%d")
@@ -109,7 +110,23 @@ CVX = data %>%
   filter(Test == "PCR CVX")
 CVX = ddply(CVX, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
-tests_final = rbind(abbott, Quidel, iHealth, Ellume, On, CVX)
+unk = data %>%
+  filter(Test == "Unknown")
+unk = ddply(unk, .(Test), .drop=TRUE, summarise, Tests = length(Test))
+
+intelli = data %>%
+  filter(Test == "Inteliswab")
+intelli = ddply(intelli, .(Test), .drop=TRUE, summarise, Tests = length(Test))
+
+ff = data %>%
+  filter(Test == "Flowflex Covid-19 Antigen Home Test")
+ff = ddply(ff, .(Test), .drop=TRUE, summarise, Tests = length(Test))
+
+cvs = data %>%
+  filter(Test == "CSV Rapid")
+cvs = ddply(cvs, .(Test), .drop=TRUE, summarise, Tests = length(Test))
+
+tests_final = rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff, cvs)
 
 t = ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   geom_bar(stat = "identity") +
@@ -156,6 +173,18 @@ states = ggplot(summary, aes(Date, Cases, fill = State)) +
 out = ggplotly(states)
 saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p1.html", selfcontained = T, libdir = "lib")
 
+# US Map + Data
+MainStates <- map_data("state")
+MainStates$State = MainStates$region
+MainStates$State = str_to_title(MainStates$State)
+MergedStates <- inner_join(summary, MainStates, by = "State")
+
+state1 = ggplot() + 
+  geom_polygon(data=MergedStates, aes(x=long, y=lat, group=group, fill = Cases), color="black") +
+  theme_void() +
+  scale_fill_continuous(name="Number of Positive Rapid Tests", low = "white", high = "#8B0000",limits = c(0,50)) 
+out5 = ggplotly(state1)
+saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p5.html", selfcontained = T, libdir = "lib")
 # Output data to google for public access 
 output1 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/rawdata/rawdata_", date, ".csv", sep = "")
 output2 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/summarydata/summarydata_", date, ".csv", sep = "")
