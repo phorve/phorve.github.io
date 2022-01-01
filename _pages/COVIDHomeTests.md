@@ -27,7 +27,7 @@ This page hosts the updated data collected through this public google form for C
 
 ## Want to contribute? Fill out the survey yourself!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG5DY2eHGQgixh6jI_eA71xkugTgzyuySeTX6rjA_yx-3-gg/viewform?embedded=true" width="1200" height="1501" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG5DY2eHGQgixh6jI_eA71xkugTgzyuySeTX6rjA_yx-3-gg/viewform?embedded=true" width="100%" height="1501" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Data
 
