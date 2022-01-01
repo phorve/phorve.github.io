@@ -20,7 +20,7 @@ This page hosts the  data collected through [this public google form](https://fo
 <iframe src="/COVIDHome_R/html/p4.html" frameborder="0" scrolling="no" width="50%" height="512" align="right">
 </iframe>
 
-<iframe src="/COVIDHome_R/html/p1.html" frameborder="0" scrolling="no" width="50%" height="512" align="left">
+<iframe src="/COVIDHome_R/html/p6.html" frameborder="0" scrolling="no" width="50%" height="512" align="left">
 </iframe>
 
 <iframe src="/COVIDHome_R/html/p2.html" frameborder="0" scrolling="no" width="50%" height="512" align="right">
