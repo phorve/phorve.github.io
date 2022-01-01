@@ -182,7 +182,11 @@ MergedStates <- inner_join(summary, MainStates, by = "State")
 state1 = ggplot() + 
   geom_polygon(data=MergedStates, aes(x=long, y=lat, group=group, fill = Cases), color="black") +
   theme_void() +
-  scale_fill_continuous(name="Number of Positive Rapid Tests", low = "white", high = "#8B0000",limits = c(0,50)) 
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), line = element_blank()) +
+  scale_fill_continuous(name="Number of Positive Rapid Tests", low = "white", high = "#8B0000",limits = c(0,50)) +
+  annotate("text", x = -85, y = 27.5, label = "States are not shown until", size = 2) +
+  annotate("text", x = -87, y = 27., label = "data is available", size = 2)
 out5 = ggplotly(state1)
 saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p5.html", selfcontained = T, libdir = "lib")
 # Output data to google for public access 
