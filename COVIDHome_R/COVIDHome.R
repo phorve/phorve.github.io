@@ -8,7 +8,7 @@ library(htmlwidgets)
 library(ggsci)
 library(maps)
 
-# Set variables we'll need later 
+# Set variables we'll need later
 date = format(Sys.time(), "%Y%m%d")
 sep = ","
 
@@ -26,23 +26,23 @@ a = str_replace(a, "What state/region/province are you in? (Write 'NA' if in U.S
 a = str_replace(a, "What county (or equivalent) are you in\\?", "County")
 a = str_replace(a, "What city (or equivalent) are you in\\?", "City")
 
-# Make the data into a dataframe 
+# Make the data into a dataframe
 data <- as.data.frame(read.table(text = a, sep = sep), skip = 2, headers = T)
 data <- data[-1]
-data$V1 <- NULL 
-colnames(data) = c("Date", "Test", "Positive", "State", "County", "City") # Fix column names 
-data <- data[-c(1),] 
+data$V1 <- NULL
+colnames(data) = c("Date", "Test", "Positive", "State", "County", "City") # Fix column names
+data <- data[-c(1),]
 data$Positive<-ifelse(data$Positive=="Yes",1,0)
 data
 
-# Count positives and negatives 
+# Count positives and negatives
 positives = data %>%
   filter(Positive == 1)
 
 negatives = data %>%
   filter(Positive == 0)
 
-pn.data = data.frame("Result" = c("Negative", "Positive"), 
+pn.data = data.frame("Result" = c("Negative", "Positive"),
                      "n" = c(nrow(negatives), nrow(positives)))
 
 pn.plot = ggplot(pn.data, aes(Result, n, fill = Result)) +
@@ -56,7 +56,7 @@ pn.plot = ggplot(pn.data, aes(Result, n, fill = Result)) +
 out4 = ggplotly(pn.plot)
 saveWidget(out4, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p4.html", selfcontained = T, libdir = "lib")
 
-#Count the total number of reported tests 
+#Count the total number of reported tests
 rollingcount = read.csv("/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
 today = nrow(rollingcount)
 
@@ -64,12 +64,12 @@ test1 = rollingcount[today, 1]
 test2 = format(Sys.time(), "%m/%d/%y")
 test = test1==test2
 if(test == FALSE){
-  hold.table = data.frame("Date" = format(Sys.time(), "%Y-%m-%d"), 
-                          "Tests" = today)  
+  hold.table = data.frame("Date" = format(Sys.time(), "%Y-%m-%d"),
+                          "Tests" = today)
   rollingcount = rbind(hold.table, rollingcount)
   write_csv(rollingcount, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
 }
-  
+
 r = ggplot(rollingcount, aes(Date, Tests)) +
   geom_bar(stat = "identity") +
   theme_classic() +
@@ -79,13 +79,13 @@ r = ggplot(rollingcount, aes(Date, Tests)) +
 out2 = ggplotly(r)
 saveWidget(out2, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p3.html", selfcontained = T, libdir = "lib")
 
-# Summarize the testing data 
+# Summarize the testing data
 tests = data %>%
   select(Date, Test)
 
-# Daily tests - implement this later on 
+# Daily tests - implement this later on
 
-# Total tests 
+# Total tests
 abbott = data %>%
   filter(Test == "Abbott BinaxNOW COVID-19 Antigen Rapid Self-Test")
 abbott = ddply(abbott, .(Test), .drop=TRUE, summarise, Tests = length(Test))
@@ -123,7 +123,7 @@ ff = data %>%
 ff = ddply(ff, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
 cvs = data %>%
-  filter(Test == "CSV Rapid")
+  filter(Test == "CVS Rapid")
 cvs = ddply(cvs, .(Test), .drop=TRUE, summarise, Tests = length(Test))
 
 tests_final = rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff, cvs)
@@ -133,7 +133,7 @@ t = ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   scale_fill_npg() +
   theme_classic() +
   ylab("Test Type") +
-  theme(axis.text.x=element_blank(), 
+  theme(axis.text.x=element_blank(),
         legend.position="bottom") +
   ggtitle("Type of Each Test Reported") +
   theme(plot.title = element_text(hjust = 0.5))
@@ -148,20 +148,20 @@ summary_state_positive = ddply(summary_state_positive, .(State, County, City, Da
 
 summary_state_all <- ddply(data, .(State, County, City, Date), .drop=TRUE, summarise, Cases = length(Positive))
 
-summary = data.frame("State" = summary_state_positive$State, 
+summary = data.frame("State" = summary_state_positive$State,
                             "County" = summary_state_positive$County,
-                            "City" = summary_state_positive$City, 
-                            "Date" = as.Date.character(summary_state_positive$Date, "%m/%d/%y"), 
-                            "Cases" = summary_state_positive$Cases)#, 
+                            "City" = summary_state_positive$City,
+                            "Date" = as.Date.character(summary_state_positive$Date, "%m/%d/%y"),
+                            "Cases" = summary_state_positive$Cases)#,
                             #"Percent" = ((summary_state_positive$Cases/summary_state_all$Cases)*100))
 
-# Calculate rolling averages 
+# Calculate rolling averages
 rolling <- summary %>%
-  dplyr::arrange(desc(State)) %>% 
-  dplyr::group_by(State) %>% 
-  dplyr::mutate(Cases = zoo::rollmean(Cases, k = 7, fill = NA)) %>% 
+  dplyr::arrange(desc(State)) %>%
+  dplyr::group_by(State) %>%
+  dplyr::mutate(Cases = zoo::rollmean(Cases, k = 7, fill = NA)) %>%
                   dplyr::ungroup()
-                
+
 # Make our plot over time states
 states = ggplot(summary, aes(Date, Cases, fill = State)) +
   geom_bar(stat = "identity") +
@@ -179,7 +179,7 @@ MainStates$State = MainStates$region
 MainStates$State = str_to_title(MainStates$State)
 MergedStates <- inner_join(summary, MainStates, by = "State")
 
-state1 = ggplot() + 
+state1 = ggplot() +
   geom_polygon(data=MergedStates, aes(x=long, y=lat, group=group, fill = Cases), color="black") +
   theme_void() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -189,7 +189,7 @@ state1 = ggplot() +
   annotate("text", x = -85, y = 27., label = "data is available", size = 2)
 out5 = ggplotly(state1)
 saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p5.html", selfcontained = T, libdir = "lib")
-# Output data to google for public access 
+# Output data to google for public access
 output1 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/rawdata/rawdata_", date, ".csv", sep = "")
 output2 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/summarydata/summarydata_", date, ".csv", sep = "")
 output3 = paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/testdata/testdata_", date, ".csv", sep = "")
