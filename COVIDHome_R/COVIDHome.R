@@ -30,7 +30,7 @@ a <- str_replace(a, "What city (or equivalent) are you in\\?", "City")
 data <- as.data.frame(read.table(text = a, sep = sep), skip = 2, headers = T)
 data <- data[-1]
 data$V1 <- NULL
-colnames(data) <- c("Date", "Test", "Positive", "State", "County", "City") # Fix column names
+colnames(data) <- c("Date", "Test", "Positive", "State", "County", "City", "Country", "Region") # Fix column names
 data <- data[-c(1), ]
 data$Positive <- ifelse(data$Positive == "Yes", 1, 0)
 data
@@ -60,24 +60,27 @@ saveWidget(out4, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.gi
 
 # Count the total number of reported tests
 rollingcount <- read.csv("/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
-today <- nrow(data)
+today <- nrow(rollingcount)
+add = nrow(data)
 
 test1 <- rollingcount[today, 1]
 test2 <- format(Sys.time(), "%m/%d/%y")
 test <- test1 == test2
 if (test == FALSE) {
   hold.table <- data.frame(
-    "Date" = format(Sys.time(), "%Y-%m-%d"),
-    "Tests" = today
+    "Date" = format(Sys.time(), "%m/%d/%y"),
+    "Tests" = add
   )
   rollingcount <- rbind(hold.table, rollingcount)
+  rollingcount = rollingcount[order(as.Date(rollingcount$Date, format="%m/%d/%y")),]
   write_csv(rollingcount, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
 }
 
-r <- ggplot(rollingcount, aes(Date, Tests)) +
+r <- ggplot(rollingcount, aes(as.Date(Date, format = "%m/%d/%y"), Tests)) +
   geom_bar(stat = "identity") +
   theme_classic() +
   ylab("Total Tests Reported") +
+  xlab("Date") +
   ggtitle("Total Tests Reported") +
   theme(plot.title = element_text(hjust = 0.5))
 out2 <- ggplotly(r)
@@ -176,16 +179,20 @@ states <- ggplot(summary, aes(Date, Cases, fill = State)) +
   # facet_wrap(~State) + # removed 12/31/2021
   theme_classic() +
   ylab("Positive Rapid Tests") +
+  scale_fill_npg() +
   ggtitle("Positive Tests per State") +
   theme(plot.title = element_text(hjust = 0.5))
 out <- ggplotly(states)
 saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p1.html", selfcontained = T, libdir = "lib")
 
+summary2 <- ddply(summary, .(State, County, City), .drop = TRUE, summarise, Cases = length(Cases))
+
 # US Map + Data
 MainStates <- map_data("state")
 MainStates$State <- MainStates$region
 MainStates$State <- str_to_title(MainStates$State)
-MergedStates <- inner_join(summary, MainStates, by = "State")
+MergedStates <- full_join(MainStates, summary2, by = "State")
+MergedStates$Cases[is.na(MergedStates$Cases)] <- 0
 
 state1 <- ggplot() +
   geom_polygon(data = MergedStates, aes(x = long, y = lat, group = group, fill = Cases), color = "black") +
@@ -194,11 +201,10 @@ state1 <- ggplot() +
     panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
     panel.background = element_blank(), line = element_blank()
   ) +
-  scale_fill_continuous(name = "Number of Positive Rapid Tests", low = "white", high = "#8B0000", limits = c(0, 50)) +
-  annotate("text", x = -85, y = 27.5, label = "States are not shown until", size = 2) +
-  annotate("text", x = -85, y = 27., label = "data is available", size = 2)
+  scale_fill_continuous(name = "Number of Positive Rapid Tests", low = "white", high = "#8B0000", limits = c(0, 15))
 out5 <- ggplotly(state1)
 saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p5.html", selfcontained = T, libdir = "lib")
+
 # Output data to google for public access
 output1 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/rawdata/rawdata_", date, ".csv", sep = "")
 output2 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/summarydata/summarydata_", date, ".csv", sep = "")
