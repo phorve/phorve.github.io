@@ -60,7 +60,7 @@ saveWidget(out4, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.gi
 
 # Count the total number of reported tests
 rollingcount <- read.csv("/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
-today <- nrow(rollingcount)
+today <- nrow(data)
 
 test1 <- rollingcount[today, 1]
 test2 <- format(Sys.time(), "%m/%d/%y")
