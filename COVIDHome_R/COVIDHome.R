@@ -7,7 +7,7 @@
 # tracking page at https://www.patrickfhorve.com/COVIDHomeTests/
 # 
 # A history of this code can be found at 
-# https://github.com/phorve/phorve.github.io/blob/main/COVIDHome_R/COVIDHome.R
+# https://github.com/phorve/phorve.github.io/commits/main/COVIDHome_R/COVIDHome.R
 #
 #==============================================================================#
 #==============================================================================#
