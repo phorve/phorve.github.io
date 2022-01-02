@@ -114,6 +114,8 @@ out2 <- ggplotly(r)
 saveWidget(out2, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p3.html", selfcontained = T, libdir = "lib")
 
 # Count the number of submitted tests from each state 
+MainStates <- map_data("state")
+MainStates$State <- MainStates$region
 locations <- ddply(MainStates, .(State, group), .drop = TRUE, summarise, long = mean(long), lat = mean(lat))
 locations.combined = full_join(locations, summary_state_all, by = "State")
 locations.combined$Submissions[is.na(locations.combined$Submissions)] <- 0
@@ -254,8 +256,6 @@ saveWidget(out, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.git
 summary2 <- ddply(summary, .(State, County, City), .drop = TRUE, summarise, Cases = length(Cases))
 
 # US Map + Data
-MainStates <- map_data("state")
-MainStates$State <- MainStates$region
 MainStates$State <- str_to_title(MainStates$State)
 MergedStates <- full_join(MainStates, summary2, by = "State")
 MergedStates$Cases[is.na(MergedStates$Cases)] <- 0
