@@ -26,9 +26,6 @@ This page hosts the  data collected through [this public google form](https://fo
 <iframe src="/COVIDHome_R/html/p2.html" frameborder="0" scrolling="no" width="50%" height="512" align="right">
 </iframe>
 
-*Updated January 1, 2021 @ 10 AM PST*
-{: .text-center}
-
 ## Want to contribute? Fill out the survey yourself!
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG5DY2eHGQgixh6jI_eA71xkugTgzyuySeTX6rjA_yx-3-gg/viewform?embedded=true" width="100%" height="1501" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -36,3 +33,6 @@ This page hosts the  data collected through [this public google form](https://fo
 ## Data
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1hkdvGN4axDGCgsowKb0bf1qQEj4Fb7YW#grid" style="width:100%; height:600px; border:0;"></iframe>
+
+*Updated January 1, 2021 @ 10 AM PST*
+{: .text-center}
