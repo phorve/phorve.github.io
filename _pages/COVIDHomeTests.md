@@ -26,6 +26,8 @@ This page hosts the  data collected through [this public google form](https://fo
 <iframe src="/COVIDHome_R/html/p2.html" frameborder="0" scrolling="no" width="50%" height="512" align="right">
 </iframe>
 
+*Updated January 1, 2021 @ 10 AM PST*
+{: .text-center}
 
 ## Want to contribute? Fill out the survey yourself!
 
