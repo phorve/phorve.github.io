@@ -8,7 +8,7 @@ header:
 ---
 # COVID-19 At-Home Rapid Test Tracker
 
-Why is this needed?
+## Why is this needed?
 
 Currently, COVID-19 cases are dramatically increasing above levels that we’ve seen previously. There has also been a recent uptick in the amount of rapid at-home tests being used. However, all official counts for COVID-19 cases only include PCR tests and a small subset of rapid tests, making estimating the true impact of SARS-CoV-2 and the temporal dynamics of spread difficult to estimate. All official counts for COVID-19 cases only include PCR tests and a very small subset of rapid tests. This means that all of the case numbers you see on the news don’t include the majority of rapid tests! I’m trying to change that!
 
