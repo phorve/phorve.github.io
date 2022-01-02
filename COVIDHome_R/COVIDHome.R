@@ -120,19 +120,39 @@ locations <- ddply(MainStates, .(State, group), .drop = TRUE, summarise, long = 
 locations.combined = full_join(locations, summary_state_all, by = "State")
 locations.combined$Submissions[is.na(locations.combined$Submissions)] <- 0
 
-
 locations = data.frame("State" = state.name,
                        "long" = state.center$x, 
                        "lat" = state.center$y) 
 locations.combined = full_join(locations, summary_state_all, by = "State")
 locations.combined$Submissions[is.na(locations.combined$Submissions)] <- 0
 
+locations.combined2 <- locations.combined %>%
+  filter(State != c("Delaware"))
+locations.combined2 <- locations.combined2 %>%
+  filter(State != c("Rhode Island"))
+locations.combined2 <- locations.combined2 %>%
+  filter(State != c("New Jersey"))
+locations.combined2 <- locations.combined2 %>%
+  filter(State != c("Maryland"))
+
 state2 <- ggplot() +
   geom_polygon(data = MainStates, aes(x = long, y = lat, group = group), color = "black", fill = "white") +
   theme_void() +
-  geom_text(data = locations.combined, aes(long, lat, label = Submissions), color = "Blue") +
+  geom_text(data = locations.combined2, aes(long, lat, label = Submissions), color = "Blue") +
   geom_text(aes((locations.combined$long[2]-1), (locations.combined$lat[2]-1), label = "Alaska")) +
   geom_text(aes((locations.combined$long[11]-1), (locations.combined$lat[11]-1), label = "Hawaii")) +
+  geom_text(aes(-68.1244, 40, label = locations.combined$Submissions[8]), color = "blue") +
+  geom_segment(aes(x = -69, y = 40, xend = -72.1244, yend = 40.7),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  geom_text(aes(-72.98, 37, label = locations.combined$Submissions[39]), color = "blue") +
+  geom_segment(aes(x = -73, y = 37.3, xend = -74.5, yend = 38.5),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  geom_text(aes(-70.4, 39.3, label = locations.combined$Submissions[30]), color = "blue") +
+  geom_segment(aes(x = -70.9, y = 39.3, xend = -74.1336, yend = 39.9637),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  geom_text(aes(-70.4, 38.50, label = locations.combined$Submissions[20]), color = "blue") +
+  geom_segment(aes(x = -70.9, y = 38.50, xend = -76.8459, yend = 39.2778),
+               arrow = arrow(length = unit(0.1, "cm"))) +
   ggtitle("Number of Submissions per State") +
   theme(axis.line=element_blank(),
         axis.text.x=element_blank(),
