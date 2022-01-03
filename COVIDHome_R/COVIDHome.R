@@ -325,3 +325,6 @@ output3 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/testdata/testdata_", d
 write.csv(data, output1)
 write.csv(summary, output2)
 write.csv(tests_final, output3)
+
+## wipe env
+rm(list = ls())
