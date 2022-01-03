@@ -117,6 +117,7 @@ saveWidget(out2, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.gi
 MainStates <- map_data("state")
 MainStates$State <- MainStates$region
 locations <- ddply(MainStates, .(State, group), .drop = TRUE, summarise, long = mean(long), lat = mean(lat))
+summary_state_all <- ddply(data, .(State), .drop = TRUE, summarise, Submissions = length(Positive))
 locations.combined = full_join(locations, summary_state_all, by = "State")
 locations.combined$Submissions[is.na(locations.combined$Submissions)] <- 0
 
@@ -134,6 +135,10 @@ locations.combined2 <- locations.combined2 %>%
   filter(State != c("New Jersey"))
 locations.combined2 <- locations.combined2 %>%
   filter(State != c("Maryland"))
+locations.combined2 <- locations.combined2 %>%
+  filter(State != c("Connecticut"))
+locations.combined2 <- locations.combined2 %>%
+  filter(State != c("Massachusetts"))
 
 state2 <- ggplot() +
   geom_polygon(data = MainStates, aes(x = long, y = lat, group = group), color = "black", fill = "white") +
@@ -141,17 +146,29 @@ state2 <- ggplot() +
   geom_text(data = locations.combined2, aes(long, lat, label = Submissions), color = "Blue") +
   geom_text(aes((locations.combined$long[2]-1), (locations.combined$lat[2]-1), label = "Alaska")) +
   geom_text(aes((locations.combined$long[11]-1), (locations.combined$lat[11]-1), label = "Hawaii")) +
+  # Massachusetts
+  geom_text(aes(-68.6244, 42.5, label = locations.combined$Submissions[8]), color = "blue") +
+  geom_segment(aes(x = -69, y = 42.5, xend = -71.6244, yend = 42.5),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  # Rhode island
   geom_text(aes(-68.6244, 40, label = locations.combined$Submissions[8]), color = "blue") +
   geom_segment(aes(x = -69, y = 40, xend = -71.7244, yend = 41.7),
                arrow = arrow(length = unit(0.1, "cm"))) +
+  # Connecticut
+  geom_text(aes(-69.6244, 39.2, label = locations.combined$Submissions[8]), color = "blue") +
+  geom_segment(aes(x = -69.9, y = 39.5, xend = -72.5, yend = 41.8),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  # New Jersey
+  geom_text(aes(-70.4, 38.3, label = locations.combined$Submissions[30]), color = "blue") +
+  geom_segment(aes(x = -70.9, y = 38.3, xend = -74.1336, yend = 39.9637),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  # Maryland
+  geom_text(aes(-70.4, 37.50, label = locations.combined$Submissions[20]), color = "blue") +
+  geom_segment(aes(x = -70.9, y = 37.50, xend = -76.8459, yend = 39.2778),
+               arrow = arrow(length = unit(0.1, "cm"))) +
+  # Delaware
   geom_text(aes(-72.98, 37, label = locations.combined$Submissions[39]), color = "blue") +
-  geom_segment(aes(x = -73, y = 37.3, xend = -74.5, yend = 38.5),
-               arrow = arrow(length = unit(0.1, "cm"))) +
-  geom_text(aes(-70.4, 39.3, label = locations.combined$Submissions[30]), color = "blue") +
-  geom_segment(aes(x = -70.9, y = 39.3, xend = -74.1336, yend = 39.9637),
-               arrow = arrow(length = unit(0.1, "cm"))) +
-  geom_text(aes(-70.4, 38.50, label = locations.combined$Submissions[20]), color = "blue") +
-  geom_segment(aes(x = -70.9, y = 38.50, xend = -76.8459, yend = 39.2778),
+  geom_segment(aes(x = -73, y = 37.3, xend = -74.9, yend = 38.4),
                arrow = arrow(length = unit(0.1, "cm"))) +
   ggtitle("Number of Submissions per State") +
   theme(axis.line=element_blank(),
@@ -240,8 +257,6 @@ saveWidget(out1, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.gi
 summary_state_positive <- data %>%
   filter(Positive == 1)
 summary_state_positive <- ddply(summary_state_positive, .(State, County, City, Date), .drop = TRUE, summarise, Cases = length(Positive))
-
-summary_state_all <- ddply(data, .(State), .drop = TRUE, summarise, Submissions = length(Positive))
 
 summary <- data.frame(
   "State" = summary_state_positive$State,
