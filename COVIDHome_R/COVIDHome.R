@@ -24,6 +24,7 @@ library(plyr)
 library(htmlwidgets)
 library(ggsci)
 library(maps)
+library(ozmaps)
 
 #==============================================================================#
 # Set variables we'll need later
@@ -100,7 +101,7 @@ if (test == FALSE) {
   )
   rollingcount <- rbind(hold.table, rollingcount)
   rollingcount = rollingcount[order(as.Date(rollingcount$Date, format="%m/%d/%y")),]
-  write_csv(rollingcount, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
+#  write_csv(rollingcount, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
 }
 
 r <- ggplot(rollingcount, aes(as.Date(Date, format = "%m/%d/%y"), Tests)) +
@@ -164,11 +165,11 @@ state2 <- ggplot() +
                arrow = arrow(length = unit(0.1, "cm"))) +
   # Maryland
   geom_text(aes(-70.4, 37.50, label = locations.combined$Submissions[20]), color = "blue") +
-  geom_segment(aes(x = -70.9, y = 37.50, xend = -76.8459, yend = 39.2778),
+  geom_segment(aes(x = -70.9, y = 37.50, xend = -74.9, yend = 38.4),
                arrow = arrow(length = unit(0.1, "cm"))) +
   # Delaware
   geom_text(aes(-72.98, 37, label = locations.combined$Submissions[39]), color = "blue") +
-  geom_segment(aes(x = -73, y = 37.3, xend = -74.9, yend = 38.4),
+  geom_segment(aes(x = -73, y = 37.3, xend = -76.8459, yend = 39.2778),
                arrow = arrow(length = unit(0.1, "cm"))) +
   ggtitle("Number of Submissions per State") +
   theme(axis.line=element_blank(),
@@ -235,7 +236,11 @@ cvs <- data %>%
   filter(Test == "CVS Rapid")
 cvs <- ddply(cvs, .(Test), .drop = TRUE, summarise, Tests = length(Test))
 
-tests_final <- rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff, cvs)
+RightSign <- data %>%
+  filter(Test == "RightSign Rapid Antigen Test ")
+RightSign <- ddply(RightSign, .(Test), .drop = TRUE, summarise, Tests = length(Test))
+
+tests_final <- rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff, cvs, RightSign)
 
 t <- ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   geom_bar(stat = "identity") +
@@ -314,6 +319,17 @@ out5 <- ggplotly(state1)
 saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p5.html", selfcontained = T, libdir = "lib")
 
 #==============================================================================#
+# Plot data for Australia
+#==============================================================================#
+#sf_oz <- ozmap("states")
+# Subset just the australian data
+#ozy <- data %>%
+#  filter(Country == "Australia")
+# Change NSW to new south whales 
+#ozy[ozy == "NSW"] <- "New South Wales"
+#ozy_joined <- full_join(sf_oz, ozy, by = c("NAME" = "State"))
+
+#==============================================================================#
 # Output data to google for public access
 #==============================================================================#
 # Paths for saving 
@@ -322,9 +338,9 @@ output2 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/summarydata/summarydat
 output3 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/testdata/testdata_", date, ".csv", sep = "")
 
 # Save to google for public access 
-write.csv(data, output1)
-write.csv(summary, output2)
-write.csv(tests_final, output3)
+write.csv(data, output1, row.names = FALSE)
+write.csv(summary, output2, row.names = FALSE)
+write.csv(tests_final, output3, row.names = FALSE)
 
 ## wipe env
 rm(list = ls())
