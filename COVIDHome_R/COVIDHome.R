@@ -237,10 +237,14 @@ cvs <- data %>%
 cvs <- ddply(cvs, .(Test), .drop = TRUE, summarise, Tests = length(Test))
 
 RightSign <- data %>%
-  filter(Test == "RightSign Rapid Antigen Test ")
+  filter(Test == "RightSign Rapid Antigen Test")
 RightSign <- ddply(RightSign, .(Test), .drop = TRUE, summarise, Tests = length(Test))
 
-tests_final <- rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff, cvs, RightSign)
+lucira <- data %>%
+  filter(Test == "Lucira Check It COVID-19 Test Kit")
+lucira <- ddply(lucira, .(Test), .drop = TRUE, summarise, Tests = length(Test))
+
+tests_final <- rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff, cvs, RightSign, lucira)
 
 t <- ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   geom_bar(stat = "identity") +
