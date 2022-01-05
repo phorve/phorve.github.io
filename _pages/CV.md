@@ -7,30 +7,44 @@ toc: true
 ## Education
 - University of Oregon - Bachelor of Science in Biology with an emphasis in molecular, cellular, and developmental biology and minors in chemistry and music (2015-2019)
 - University of Oregon - PhD in Molecular Biology (2021-Present)
+
 ---
+
 ## Research and Professional Experience
 - Research Assistant - Biology and the Built Environment Center (2018-2021)
 - Research Assistant/Laboratory Technician - Westerfield Laboratory (2019-2020)
+
 ---
+
 ## Administrative
 - MSE Director of Resource Archiving (2022)
+
 ---
+
 ## Teaching
 - BI 322: *Cell Biology*, University of Oregon, Graduate Teaching Assistant (2021)
+
 ---
+
 ## Service
 - Ongoing Science Communication, outreach, and Education
 - Peer Review/Manuscript Review - [ORCID](https://orcid.org/0000-0002-9318-9249)
   - PLOS one
   - mSystems
+
 ---
+
 ## Professional Memberships
 1. [Microbes and Social Equity Working Group](https://sueishaqlab.org/microbes-and-social-equity-working-group/) (2019-Present)
 2. [American Society for Microbiology](https://asm.org/) (2018-Present)
+
 ---
+
 ## Honors and Awards
 1. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
+
 ---
+
 ## Publications
 1. **[Twenty important research questions in microbial exposure and social equity.](https://journals.asm.org/doi/10.1128/msystems.01240-21)**
   - Robinson, J., Redvers, N., Camargo, A., Bosch, C.A., Breed, M.F., Brenner, L.A., Carney, M.A., Chauhan, A., Dasari, M., Dietz, L.G., Friedman, M., Grieneisen, L., Hoisington, A.J., **Horve, P.F.**, Hunter, A., Jech, S., Jorgensen, A., Lowry, C.A., Man, I., Mhuireach, G., Navarro-Pérez, E., Ritchie, E.G., Stewart, J.D., Watkins, H., Weinstein, P., Ishaq, S.L.
@@ -97,13 +111,15 @@ toc: true
 13. [Building Upon Current Knowledge of Indoor Microbiology to Construct the Next Era of Research into Microorganisms, Health, and the Built Environment.](https://www.nature.com/articles/s41370-019-0157-y)
   - **Horve, P.F.**, Lloyd, S., Mhuireach, G.A., Dietz, L., Fretz, M., MacCrone, G., Van Den Wymelenberg, K., Ishaq, S.L.
   - *Journal of Exposure Science and Environmental Epidemiology* (2019)
+
 ---
+
 ## Public Presentations
 1. “Microbiology and the Built Environment”, virtual presentation. Yale Occupational and Environmental Medicine Guest Lecture Series. November 3, 2020. *Co-Presented with Dr. Kevin Van Den Wymelenberg.*
+
 ---
+
 ## Conference Proceedings
 1. Christopher Lee, Alexandria Lichtl, Amelia Fitterer, **Patrick Horve**. "Utility of Plain Radiographs for the Evaluation of Shoulder Pain and Implications for Telemedicine." American Orthopaedic Society for Sports Medicine-Arthroscopy Association of North America Combined 2021 Annual Meeting, Nashville, TN. June 2021.
 2. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” American Society for Microbiology Microbe 2020, Chicago, IL. Jun 2020.
 3. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” 2020 Microbiology of the Built Environment (MoBE) Gordon Research Conference, Andover, NH. Jun 2020.
-
-<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="m8cuqj35rotavu5"></script>
