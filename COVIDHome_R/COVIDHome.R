@@ -24,7 +24,6 @@ library(plyr)
 library(htmlwidgets)
 library(ggsci)
 library(maps)
-library(ozmaps)
 
 #==============================================================================#
 # Set variables we'll need later
@@ -248,7 +247,7 @@ tests_final <- rbind(abbott, Quidel, iHealth, Ellume, On, CVX, unk, intelli, ff,
 
 t <- ggplot(tests_final, aes(x = Test, y = Tests, fill = Test)) +
   geom_bar(stat = "identity") +
-  scale_fill_npg() +
+  #scale_fill_npg() +
   theme_classic() +
   ylab("Test Type") +
   theme(
@@ -337,9 +336,9 @@ saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.gi
 # Output data to google for public access
 #==============================================================================#
 # Paths for saving 
-output1 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/rawdata/rawdata_", date, ".csv", sep = "")
-output2 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/summarydata/summarydata_", date, ".csv", sep = "")
-output3 <- paste("/Volumes/GoogleDrive/My Drive/HomeCOVID/testdata/testdata_", date, ".csv", sep = "")
+output1 <- paste("/Volumes/GoogleDrive-107446695526835404910/My Drive/HomeCOVID/rawdata/rawdata_", date, ".csv", sep = "")
+output2 <- paste("/Volumes/GoogleDrive-107446695526835404910/My Drive/HomeCOVID/summarydata/summarydata_", date, ".csv", sep = "")
+output3 <- paste("/Volumes/GoogleDrive-107446695526835404910/My Drive/HomeCOVID/testdata/testdata_", date, ".csv", sep = "")
 
 # Save to google for public access 
 write.csv(data, output1, row.names = FALSE)
