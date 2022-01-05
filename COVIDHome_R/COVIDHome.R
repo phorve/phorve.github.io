@@ -24,6 +24,7 @@ library(plyr)
 library(htmlwidgets)
 library(ggsci)
 library(maps)
+library(lubridate)
 
 #==============================================================================#
 # Set variables we'll need later
@@ -270,10 +271,17 @@ summary <- data.frame(
   "State" = summary_state_positive$State,
   "County" = summary_state_positive$County,
   "City" = summary_state_positive$City,
-  "Date" = as.Date.character(summary_state_positive$Date, "%m/%d/%y"),
+  "Date" = as.Date(summary_state_positive$Date, "%m/%d/%Y"),
   "Cases" = summary_state_positive$Cases
 ) # ,
 # "Percent" = ((summary_state_positive$Cases/summary_state_all$Cases)*100))
+
+sub = days(7)
+hold = Sys.time() - sub
+hold2 = format(hold, "%Y-%m-%d")
+
+summary = summary %>%
+  filter(Date <= hold2)
 
 #==============================================================================#
 # Calculate rolling averages
@@ -317,7 +325,7 @@ state1 <- ggplot() +
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
         plot.background=element_blank()) +
-  scale_fill_continuous(name = "Number of Positive Rapid Tests", low = "white", high = "#8B0000", limits = c(0, 15))
+  scale_fill_continuous(name = "Number of Positive Rapid Tests in the last 7 days", low = "white", high = "#8B0000", limits = c(0, 15))
 out5 <- ggplotly(state1)
 saveWidget(out5, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/html/p5.html", selfcontained = T, libdir = "lib")
 
