@@ -34,5 +34,5 @@ This page hosts the  data collected through [this public google form](https://fo
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1hkdvGN4axDGCgsowKb0bf1qQEj4Fb7YW#grid" style="width:100%; height:600px; border:0;"></iframe>
 
-*Updated January 4, 2022 @ 7:35 AM PST*
+*Updated January 5, 2022 @ 8:00 AM PST*
 {: .text-center}
