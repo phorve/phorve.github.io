@@ -101,7 +101,7 @@ if (test == FALSE) {
   )
   rollingcount <- rbind(hold.table, rollingcount)
   rollingcount = rollingcount[order(as.Date(rollingcount$Date, format="%m/%d/%y")),]
-#  write_csv(rollingcount, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
+  write_csv(rollingcount, "/Users/patrick/Dropbox (University of Oregon)/Github/phorve.github.io/COVIDHome_R/rollingcount.csv")
 }
 
 r <- ggplot(rollingcount, aes(as.Date(Date, format = "%m/%d/%y"), Tests)) +
