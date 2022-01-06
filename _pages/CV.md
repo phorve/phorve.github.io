@@ -71,6 +71,7 @@ toc: true
 5. **[Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689)**
   - **Horve, P.F.**, Dietz,L., Northcutt, D., Stenson, J., Van Den Wymelenberg, K.G.  
   - *PLOS One* (2021)
+  - [Preprint](https://www.preprints.org/manuscript/202103.0609/v1)
 
 
 6. **[Differing effects of four building materials on viable bacterial communities and VOCs. Developments in the Built Environment.](https://www.sciencedirect.com/science/article/pii/S2666165921000144)**
@@ -81,6 +82,7 @@ toc: true
 7. **[Identification of SARS-CoV-2 RNA in Healthcare Heating, Ventilation, and Air Conditioning Units.](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12898)**
   - **Horve PF**, Dietz L, Fretz M, Constant DA, Wilkes A, Townes JM, Martindale RG, Messer WB, Van Den Wymelenberg K.  
   - *Indoor Air* (2021)
+  - [Preprint](https://www.medrxiv.org/content/10.1101/2020.06.26.20141085v1)
 
 
 8. **Exploring Integrated Environmental Viral Surveillance of Indoor Environments: A comparison of surface and bioaerosol environmental sampling in hospital rooms with COVID-19 patients.**
