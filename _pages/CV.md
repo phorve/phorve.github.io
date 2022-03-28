@@ -46,27 +46,25 @@ toc: true
 ---
 
 ## Publications
-1. **[Twenty important research questions in microbial exposure and social equity.](https://journals.asm.org/doi/10.1128/msystems.01240-21)**
+1. **[Quantifying human and environmental viral load relationships amidst mitigation strategies in a controlled chamber with participants having COVID-19.](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac006/6498295?login=true)**
+  - Parhizkar, H., Dietz, L., Olsen-Martinez, A., **Horve, P.F.**, Barnatan, L., Northcutt, D., Van Den Wymelenberg, K.
+  - *Clinical Infectious Diseases* (2021)
+  - [Preprint](https://www.researchsquare.com/article/rs-940891/v1)
+
+2. **[Twenty important research questions in microbial exposure and social equity.](https://journals.asm.org/doi/10.1128/msystems.01240-21)**
   - Robinson, J., Redvers, N., Camargo, A., Bosch, C.A., Breed, M.F., Brenner, L.A., Carney, M.A., Chauhan, A., Dasari, M., Dietz, L.G., Friedman, M., Grieneisen, L., Hoisington, A.J., **Horve, P.F.**, Hunter, A., Jech, S., Jorgensen, A., Lowry, C.A., Man, I., Mhuireach, G., Navarro-Pérez, E., Ritchie, E.G., Stewart, J.D., Watkins, H., Weinstein, P., Ishaq, S.L.
   - *mSystems* (2022)
 
 
-2. **Longtiduinal Analysis of Built Environment and Aerosol Contamination Associated with Isolated COVID-19 Positive Individuals.**
+3. **Longtiduinal Analysis of Built Environment and Aerosol Contamination Associated with Isolated COVID-19 Positive Individuals.**
   - **Horve, P.F.**, Dietz, L., Bowles, G., MacCrone G., Olsen-Martinez, A., Northcutt, D., Moore, V., Barnatan, L., Parhizkar, H., Van Den Wymelenberg, K.
   - [Preprint](https://www.researchsquare.com/article/rs-861942/v1)
   -  *In Review*  (2022)
 
 
-3. **[Introducing the Microbes and Social Equity Working Group: considering the microbial components of social, environmental, and health justice.](https://doi.org/10.1128/mSystems.00471-21)**
+4. **[Introducing the Microbes and Social Equity Working Group: considering the microbial components of social, environmental, and health justice.](https://doi.org/10.1128/mSystems.00471-21)**
   - Ishaq SL, Parada FJ, Wolf PG, Bonilla CY, Carney MA, Benezra A, Wissel E, Friedman M, DeAngelis KM, Robinson JM, Fahimipour AK, Manus MB, Grieneisen L, Dietz LG, Pathak A, Chauhan A, Kuthyar S, Stewart JD, Dasari MR, Nonnamaker E, Choudoir M, **Horve PF**, Zimmerman NB, Kozik AJ, Darling KW, Romero-Olivares AL, Hariharan J, Farmer N, Maki KA, Collier JL, O’Doherty KC, Letourneau J, Kline J, Moses PL, Morar N.
   - *mSystems* (2021)
-
-
-4. **[Quantifying human and environmental viral load relationships amidst mitigation strategies in a controlled chamber with participants having COVID-19.](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac006/6498295#.YddOveuVR6A.twitter)**
-  - Parhizkar, H., Dietz, L., Olsen-Martinez, A., **Horve, P.F.**, Barnatan, L., Northcutt, D., Van Den Wymelenberg, K.
-  - *Clinical Infectious Diseases - Accepted* (2021)
-  - [Preprint](https://www.researchsquare.com/article/rs-940891/v1)
-
 
 5. **[Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689)**
   - **Horve, P.F.**, Dietz,L., Northcutt, D., Stenson, J., Van Den Wymelenberg, K.G.
