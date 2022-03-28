@@ -29,6 +29,9 @@ toc: true
 
 ## Teaching
 - BI 322: *Cell Biology*, University of Oregon, Graduate Teaching Assistant (2021)
+- BI 326: *Immunology and Infectious Disease*, University of Oregon, Graduate Teaching Assistant (2022)
+- BI 330: *Microbiology*, University of Oregon, Graduate Teaching Assistant (2022)
+- BI 331: *Microbiology Laboratory*, University of Oregon, Graduate Teaching Assistant (2022)
 
 ---
 
