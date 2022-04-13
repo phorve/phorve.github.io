@@ -20,6 +20,7 @@ toc: true
   - A collection of tools for working with DNA sequencing data in [Julia](https://julialang.org/)
     - [Code](https://github.com/phorve/Nucleotide_Essentials.jl)
     - [Documentation](https://www.patrickfhorve.com/Nucleotide_Essentials.jl/dev/)
+
 ---
 
 ## Administrative
