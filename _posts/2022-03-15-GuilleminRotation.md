@@ -18,7 +18,7 @@ The Guillemin lab, as described on the lab website, are...
 I wanted to rotate with Karen and the Guillemin lab because I am extremely interested in the vast interplay that exists between the microbes that we harbor and the potential that they could be impacting us in ways that we rarely think about. I also was very much pulled by the potential of finding mechanistic insights from the work in the Guillemin lab. 
 
 ### Pancreas? Pancreai? Pancreases?
-If you look at this picture, you see an illustration representing the microbial abundance found in everyone. In order to survive, these microbes have to compete with one another and to do this they will often secrete factors that will in one way or another interact with and impact common features of cellular membranes of both other microbes and the host alike. ![image-right](/assets/images/GuilleminRotation/allmicrobes.jpeg){: .align-right} 
+If you look at this picture below, you see an illustration representing the microbial abundance found in everyone. In order to survive, these microbes have to compete with one another and to do this they will often secrete factors that will in one way or another interact with and impact common features of cellular membranes of both other microbes and the host alike. ![image-right](/assets/images/GuilleminRotation/allmicrobes.jpeg){: .align-right} 
 
 One such example of how the secreted factors from the microbiome can impact development is seen in beta cells within the pancreas. Beta cells are the only cells in the body that can produce and release insulin, so misregulation of the release of insulin and insulin signaling can lead to major bodily disfunction. GF fish, or fish without a microbiome, show significantly decreased beta cell development compared to fish which do have a microbiome.
 
@@ -61,7 +61,7 @@ So now that I saw that BefA is interacting with cellular membranes in some way, 
 
 ![image-center](/assets/images/GuilleminRotation/slide8.png){: .align-center} 
 
-![image-center](/assets/images/GuilleminRotation/slide8.png){: .align-center} 
+![image-center](/assets/images/GuilleminRotation/slide9.png){: .align-center} 
 
 A paper that came out early this year from Quilici and others used NMR to determine a related SYLF domain structure and probed the potential mechanism of this SYLF domain. They found that certain residues (which are shown in red) were important for interactions with lipids. These important residues were found to be very close to BefA residue 195 that Emily previously shown decreased BefA’s activity. If you look at the  structures of their SYLF domain on the left and BefA on the right, you can also see that the residues they found to be important (in red) are in a very similar position to the residues we ultimately decided to investigate further that are shown in green. The agreement between our own results and this paper from Quilichi and others suggested that we were looking at the right area underlying BefA’s function. 
 ![image-right](/assets/images/GuilleminRotation/slide10.png){: .align-right} 
