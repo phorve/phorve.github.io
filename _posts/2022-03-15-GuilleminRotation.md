@@ -1,6 +1,5 @@
 ---
 title: "Winter Term Update: Guillemin Lab Rotation"
-layout: splash
 date: 2022-03-15T15:34:30-04:00
 classes: wide
 categories:
@@ -9,7 +8,7 @@ tags:
 - Professional Development
 - Grad School
 header:
-  overlay_image: /assets/images/GuilleminRotation/coolcells.png
+  image: /assets/images/GuilleminRotation/coolcells.png
 
 ---
 ### The Guillemin Lab
@@ -71,6 +70,7 @@ A paper that came out early this year from Quilici and others used NMR to determ
 We identified three residues that were in the region identified by Quilici that also appeared to be on the surface of BefA, making them potential locations of interactions with lipid membranes 
 
 Like I mentioned before, Emily in the lab had shown a reduction in membrane-perturbing activity when residue 195 in BefA was mutated from the positively charged arginine to the neutral alanine, I first decided to go even further and create a mutant protein with that arginine changed to a negatively charged glutamate. I also made a mutant with two other mutations in the region that Quilici found was important to try to completely break the function of BefA. 
+
 <img align="left" width="600" height="337.5" src="/assets/images/GuilleminRotation/slide11.png">
 
 Just as a reminder, an increase in fluorescence equals more membrane perturbation. I reconfirmed Emily’s previous result that the R195A mutant did show reduced activity compared to WT. Surprisingly, I found across multiple trials that switching the charge of that 195th residue from positive to negative in the new R195E mutant, which is shown in red here, actually increased the activity of BefA. I did find however that the triple mutant, which is shown in black, demonstrated reduced activity even though it included the bolstering R195E mutation, suggesting that mutations at the other two residues are potentially detrimental for the activity of BefA. However, none of these mutants as poor of activity as the R195A mutant that Emily had tested previously, of course with the caveat that the R195E mutation could be potentially rescuing the function of our mutants. 
