@@ -27,7 +27,7 @@ If you look at this picture, you see an illustration representing the microbial 
 One such example of how the secreted factors from the microbiome can impact development is seen in beta cells within the pancreas. Beta cells are the only cells in the body that can produce and release insulin, so misregulation of the release of insulin and insulin signaling can lead to major bodily disfunction. GF fish, or fish without a microbiome, show significantly decreased beta cell development compared to fish which do have a microbiome.
 
 Through a combination of GF zebrafish monoassociations and mass spec analysis, the lab identified a novel protein from Aeromonas that is both necessary and sufficient to induce beta cell expansion in developing zebrafish. The lab named this protein beta cell expansion factor A or BefA. When Emily Sweeney in the lab determined the structure of the novel BefA protein, she found that it contained an SYLF domain. The SYLF domain is a ubiquitous protein domain that is found in many organisms but is rare in prokaryotes. While the exact function and mechanism of the SYLF domain is not known, previous studies have shown that the SYLF domain is important for lipid interactions and is often found in proteins that colocalize with membranes. 
-<img align="right" width="600" height="337.5" src="/assets/images/GuilleminRotation/slide2.png">
+<img align="right" width="600" height="400" src="/assets/images/GuilleminRotation/slide2.png">
 
 Previously, Michelle Massaquoi and Emily in the the lab had used fixed and stained Bacillus and explanted beta cells to show that BefA can localize with membranes of both bacterial and eukaryotic cells after 2 hours. However, because this imaging was done using fixed and stained cells, we were still missing important information of the dynamics of BefA with live cells. And so, while Michelle and Emily had shown that BefA can localize with membranes, this ultimately led to the first major question of my rotation. I first wanted to explore the dynamics underlying BefA’s interaction with cellular membranes. 
 
@@ -36,13 +36,13 @@ Building upon Michelle’s work, I developed a live imaging protocol using colon
 | ![ ](/assets/images/GuilleminRotation/slide3.png)
 
 If we zoom in at our first time point, I saw large clusters of BefA that were able to colocalize with the cells and appear to be within the nucleus, suggesting that BefA can not only interact with and pass through the outer plasma membrane but also potentially interact with the nuclear membrane if it can enter into the cell. 
-<img align="left" width="500" height="337.5" src="/assets/images/GuilleminRotation/slide4.png">
+<img align="left" width="300" height="300" src="/assets/images/GuilleminRotation/slide4.png">
 
 Here at the 30 minute time point, you can see that there is now a significant amount of BefA both inside and outside the colonocyte nucleus, showing that BefA is actively moving into the nucleus as we move through time.  
-<img align="right" width="500" height="337.5" src="/assets/images/GuilleminRotation/slide5.png">
+<img align="right" width="300" height="300" src="/assets/images/GuilleminRotation/slide5.png">
 
 Lastly, if we zoom in at 1 hour timepoint, we see that BefA is still largely localized within the nucleus but we have lost the majority of the BefA in the perinuclear space. Taken together, all these results recapitulate Michelle's findings and demonstrate this interaction between BefA and cells occurs quickly and persists through time.
-<img align="left" width="500" height="337.5" src="/assets/images/GuilleminRotation/slide6.png">
+<img align="left" width="300" height="300" src="/assets/images/GuilleminRotation/slide6.png">
 
 Now that we had seen that BefA could interact with and enter into these cells, I wanted to explore how it 
 compares to another known membrane perturbing protein, alpha-hemolysin from Staphylococcus aureus.
@@ -53,7 +53,7 @@ Alpha-hemolysin (alpha toxin) is a pore-forming toxin that can lead to cell deat
 
 Additionally, alpha toxin is known to be trafficked to the lysosome of cells in the standard endocytic trafficking pathway. However, like I had previously mentioned based on my live cell imaging, it appeared that BefA was localizing within and around the nucleus of the colonocytes. To try to explore this in more depth, I fixed and stained cells that were treated with BefA to try to get high resolution images of colonocytes to better determine BefA localization. With the help of Adam in the imaging core, I created this movie that you are seeing and this does in fact confirm the presence of BefA within the nucleus in my imaging experiments, suggesting that BefA is behaving differently than alpha toxin and forming both perinuclear and nuclear interactions. 
 
-<video controls="controls">
+<video width="1000" height="500" controls="controls">
   <source src="/assets/images/GuilleminRotation/20220309_BefA_Fixed_Colonocytes_h_BefA_Tropo_Fixed_2.mp4" type="video/mp4">
 </video>
 
@@ -81,4 +81,4 @@ In the future, the lab is hoping to generate new mutants that can then be initia
 
 I would like to thank everyone in the Guillemin lab for a really nice and engaging rotation and for creating such a welcoming and supportive environment. I want to thank Karen for the opportunity to rotate in the lab, and I especially want to thank Jen, Emily, and Michelle for all of their hands on help throughout the term. I’d also like to thank Adam in the imaging core, the media kitchen, and Amy from the Stankunas lab for help with imaging. 
 
-<img align="center" width="800" height="800" src="/assets/images/GuilleminRotation/coolcells.png">
+<img align="center" width="1000" height="800" src="/assets/images/GuilleminRotation/coolcells.png">
