@@ -7,6 +7,8 @@ categories:
 tags:
 - Professional Development
 - Grad School
+header:
+  overlay_image: /assets/images/GuilleminRotation/coolcells.png
 image:
   feature: /assets/images/GuilleminRotation/coolcells.png
   thumb: /assets/images/GuilleminRotation/coolcells.png
@@ -34,20 +36,20 @@ Building upon Michelle’s work, I developed a live imaging protocol using colon
 | ![ ](/assets/images/GuilleminRotation/slide3.png)
 
 If we zoom in at our first time point, I saw large clusters of BefA that were able to colocalize with the cells and appear to be within the nucleus, suggesting that BefA can not only interact with and pass through the outer plasma membrane but also potentially interact with the nuclear membrane if it can enter into the cell. 
-<img align="left" width="600" height="337.5" src="/assets/images/GuilleminRotation/slide4.png">
+<img align="left" width="500" height="337.5" src="/assets/images/GuilleminRotation/slide4.png">
 
 Here at the 30 minute time point, you can see that there is now a significant amount of BefA both inside and outside the colonocyte nucleus, showing that BefA is actively moving into the nucleus as we move through time.  
-<img align="right" width="600" height="337.5" src="/assets/images/GuilleminRotation/slide5.png">
+<img align="right" width="500" height="337.5" src="/assets/images/GuilleminRotation/slide5.png">
 
 Lastly, if we zoom in at 1 hour timepoint, we see that BefA is still largely localized within the nucleus but we have lost the majority of the BefA in the perinuclear space. Taken together, all these results recapitulate Michelle's findings and demonstrate this interaction between BefA and cells occurs quickly and persists through time.
-<img align="left" width="600" height="337.5" src="/assets/images/GuilleminRotation/slide6.png">
+<img align="left" width="500" height="337.5" src="/assets/images/GuilleminRotation/slide6.png">
 
 Now that we had seen that BefA could interact with and enter into these cells, I wanted to explore how it 
 compares to another known membrane perturbing protein, alpha-hemolysin from Staphylococcus aureus.
 
 Alpha-hemolysin (alpha toxin) is a pore-forming toxin that can lead to cell death with prolonged exposure. On the left here, you can see fixed and stained cells with the nucleus in blue and alpha toxin in green. You can see that the toxin readily enters into these cells, with significant presence throughout the cell. On the right, you are looking at cells treated with BefA, with the nucleus outlined due to some poor staining. In comparison with alpha toxin, I observed more sparse positioning throughout the cell in BefA treated cells. Nonetheless, BefA is still able to enter into these cells, but it’s less widespread nature and large clustering at single points suggest its mechanism of action is likely different than that of alpha toxin.
 
-| ![ ](/assets/images/GuilleminRotation/slide7.png)
+<img align="center" width="800" height="400" src="/assets/images/GuilleminRotation/slide7.png">
 
 Additionally, alpha toxin is known to be trafficked to the lysosome of cells in the standard endocytic trafficking pathway. However, like I had previously mentioned based on my live cell imaging, it appeared that BefA was localizing within and around the nucleus of the colonocytes. To try to explore this in more depth, I fixed and stained cells that were treated with BefA to try to get high resolution images of colonocytes to better determine BefA localization. With the help of Adam in the imaging core, I created this movie that you are seeing and this does in fact confirm the presence of BefA within the nucleus in my imaging experiments, suggesting that BefA is behaving differently than alpha toxin and forming both perinuclear and nuclear interactions. 
 
@@ -79,3 +81,4 @@ In the future, the lab is hoping to generate new mutants that can then be initia
 
 I would like to thank everyone in the Guillemin lab for a really nice and engaging rotation and for creating such a welcoming and supportive environment. I want to thank Karen for the opportunity to rotate in the lab, and I especially want to thank Jen, Emily, and Michelle for all of their hands on help throughout the term. I’d also like to thank Adam in the imaging core, the media kitchen, and Amy from the Stankunas lab for help with imaging. 
 
+<img align="center" width="800" height="800" src="/assets/images/GuilleminRotation/coolcells.png">
