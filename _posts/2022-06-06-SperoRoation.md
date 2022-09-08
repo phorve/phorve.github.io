@@ -44,8 +44,7 @@ And so at this point, I could rule out increased motility as being responsible f
    
 To test this, I quantified the size of the colonies over a 5-day period. This showed that the secondary mutants do in fact show an increased growth rate compared to the original parents *rpoN* mutant.
 
-![image-left](/assets/images/SperoRotation/gif1.gif){: .align-left}
-![image-right](/assets/images/SperoRotation/gif2.gif){: .align-right} 
+| ![ ](/assets/images/SperoRotation/gif1.gif) | ![ ](/assets/images/SperoRotation/gif2.gif)
 
 Eventually the secondary mutants do catch up with the WT and begin to have colonies that are about the same size as WT, but this takes a significant amount of time. I never saw the *rpoN* knockout strain colonies get anywhere close to the size of the WT colonies.  
 
@@ -56,7 +55,7 @@ Now that I had confirmed that this colony size difference is due to an increased
 To try to figure out if there are secondary mutations responsible for the increased growth I saw, I sent purified genomic DNA to the Microbial Genome Sequencing Center in Pittsburgh. I received back from them raw sequencing reads. I then identified the low-quality reads and removed these from all the future steps in the analysis. Then, using the wild type *Pseudomonas aeruginosa* genome as a reference, we aligned all our reads and used [breseq](https://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/#) to identify mutations in our secondary mutants. These steps are visually outlined in the video below!  
 
 <video width="1000" height="775" controls="controls">
-  <source src="/assets/images/SperoRotation/bioinfo_video.mov" type="video/mov">
+  <source src="/assets/images/SperoRotation/bioinfo_video.mp4" type="video/mp4">
 </video>
 
 Amazingly, we found that all our mutant isolates had secondary mutations in the same gene. For your reference I'm also showing the wild type reference of the genes we are going to be looking at, *rpoN* and catabolite repression control (*crc*). 
@@ -67,8 +66,7 @@ In the parental *rpoN* mutant, there is a large deletion that encompasses the en
 
 So, what is this *crc* gene and what does it do in Pseudomonas? Pseudomonas can preferentially use different carbon sources, including either preferred carbon sources such as succinate or non-preferred carbon sources like glucose. This is important for pseudomonas because it does not make sense to create gene products for a metabolism pathway that you may not be using at the time based on the nutritional environment that you are in. CRC acts as a major regulator in deciding which carbon source will be used. *crc* promotes carbohydrate metabolism, or the use of non-preferred carbon sources. CRCz, a small regulatory RNA inhibits CRC activity, thus indirectly promoting the use of preferred carbon sources. In wild type *P aeruginosa*, *rpoN* is required for the expression of crcZ.  And the regulation of this entire system is thought to come from CbrA and CbrB. When a preferred carbon source is abundant, the amount of crcZ increases, significantly decreasing the amount of active CRC and decreasing the expression of carbohydrate metabolism genes. This leads to utilization of these preferred carbon sources. 
 
-![image-left](/assets/images/SperoRotation/slide12.png){: .align-left}
-![image-right](/assets/images/SperoRotation/slide13.png){: .align-right} 
+| ![ ](/assets/images/SperoRotation/slide12.png) | ![ ](/assets/images/SperoRotation/slide13.png)
 
 In the parental *rpoN* strain, there is no functional RPON and because *rpoN* is required for the transcription of crcZ, there can be no crcZ expression. And so there will be no controlled expression of preferential catabolism genes or the downregulation of non-preferred catabolism genes. Without this regulation, there is likely a significant overexpression of CRC and carbohydrate metabolism genes, meaning that more inefficient catabolism is always being performed, likely explaining the significantly decreased growth in the parental *rpoN* mutants. 
 
