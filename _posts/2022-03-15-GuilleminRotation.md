@@ -80,4 +80,4 @@ In the future, the lab is hoping to generate new mutants that can then be initia
 
 I would like to thank everyone in the Guillemin lab for a really nice and engaging rotation and for creating such a welcoming and supportive environment. I want to thank Karen for the opportunity to rotate in the lab, and I especially want to thank Jen, Emily, and Michelle for all of their hands on help throughout the term. I’d also like to thank Adam in the imaging core, the media kitchen, and Amy from the Stankunas lab for help with imaging. 
 
-<img align="center" width="1000" height="800" src="/assets/images/GuilleminRotation/coolcells.png">
+![image-center](/assets/images/GuilleminRotation/coolcells.png){: .align-center} 
