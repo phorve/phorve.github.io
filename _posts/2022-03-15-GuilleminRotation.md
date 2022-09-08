@@ -7,8 +7,6 @@ categories:
 tags:
 - Professional Development
 - Grad School
-header:
-  image: /assets/images/GuilleminRotation/coolcells.png
 
 ---
 ### The Guillemin Lab
