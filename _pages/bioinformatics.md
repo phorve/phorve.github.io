@@ -1,7 +1,7 @@
 ---
 title: "Data Analysis"
 layout: splash
-permalink: /bioinformatics/
+permalink: /DataAnalysis/
 date: 2021-06-18T11:48:41-04:00
 header:
   overlay_image: /assets/images/bioinformatics.jpg
