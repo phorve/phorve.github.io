@@ -1,7 +1,7 @@
 ---
 title: "Real-Time PCR/Quantitative PCR"
 layout: single
-permalink: /bioinformatics/qpcr
+permalink: /DataAnalysis/qpcr
 date: 2020-09-24T11:48:41-04:00
 header:
   overlay_image: /assets/images/qPCR.jpeg
