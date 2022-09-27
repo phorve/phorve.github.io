@@ -12,6 +12,12 @@ toc: true
 
 ---
 
+## Awards and Scholarships
+1. [Borgen Adamson Memorial Scholarship Award Winner](http://molbio.uoregon.edu/gradprogram/) (2022) - Awarded by UO Institute of Molecular Biology
+2. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
+
+---
+
 ## Research and Professional Experience
 - Research Assistant - Biology and the Built Environment Center (2020-2021)
 - Research Assistant/Laboratory Technician - Westerfield Laboratory (2019-2020)
@@ -51,11 +57,6 @@ toc: true
 ## Professional Memberships
 1. [Microbes and Social Equity Working Group](https://sueishaqlab.org/microbes-and-social-equity-working-group/) (2019-Present)
 2. [American Society for Microbiology](https://asm.org/) (2018-Present)
-
----
-
-## Awards and Scholarships
-1. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
 
 ---
 
