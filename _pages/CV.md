@@ -30,10 +30,6 @@ toc: true
     - [Github Repo](https://github.com/phorve/Nucleotide_Essentials.jl)
     - [Documentation](https://www.patrickfhorve.com/Nucleotide_Essentials.jl/dev/)
 
----
-
-## Administrative
-- MSE Director of Resource Archiving (2022)
 
 ---
 
@@ -56,6 +52,8 @@ toc: true
 
 ## Professional Memberships
 1. [Microbes and Social Equity Working Group](https://sueishaqlab.org/microbes-and-social-equity-working-group/) (2019-Present)
+  - MSE Board of Director (2024-Present)
+  - MSE Director of Resource Archiving (2022-2023) 
 2. [American Society for Microbiology](https://asm.org/) (2018-Present)
 
 ---
