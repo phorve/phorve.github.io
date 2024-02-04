@@ -1,7 +1,7 @@
 ---
-permalink: /home/about-me-2/
-title: "About"
+title: 'Patrick Horve'
 layout: single
+author_profile: true
 ---
 
 Hi there! I'm currently a PhD student at the University of Oregon in Eugene, Oregon in the [Institute of Molecular Biology](http://molbio.uoregon.edu/) (IMB). I am broadly interested in the interactions between microorganisms and the world around them, including the environment, other microorganisms, animals, and humans. For my dissertation in the lab of [Dr. Karen Guillemin](http://molbio.uoregon.edu/guillemin/), I am studying host-microbe interactions and the developing pancreas using zebrafish as a model organism.    
