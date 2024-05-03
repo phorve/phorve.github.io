@@ -13,8 +13,9 @@ toc: true
 ---
 
 ## Awards and Scholarships
-1. [Borgen Adamson Memorial Scholarship Award Winner](http://molbio.uoregon.edu/gradprogram/) (2022) - Awarded by UO Institute of Molecular Biology
-2. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
+1. Raymond-Stevens Technical Skills Training Awardee (2023)
+2. [Borgen Adamson Memorial Scholarship Award Winner](http://molbio.uoregon.edu/gradprogram/) (2022) - Awarded by UO Institute of Molecular Biology
+3. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
 
 ---
 
