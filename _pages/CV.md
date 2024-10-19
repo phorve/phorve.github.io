@@ -135,12 +135,14 @@ toc: true
 ---
 
 ## Public Presentations
-1. “Microbiology and the Built Environment”, virtual presentation. Yale Occupational and Environmental Medicine Guest Lecture Series. November 3, 2020. *Co-Presented with Dr. Kevin Van Den Wymelenberg.*
+1. "Image Segmentation with CellPose". 2024 University of Oregon Image Analysis Workshop. July 18, 2024.
+2. “Microbiology and the Built Environment”, virtual presentation. Yale Occupational and Environmental Medicine Guest Lecture Series. November 3, 2020. *Co-Presented with Dr. Kevin Van Den Wymelenberg.*
 
 ---
 
 ## Conference Proceedings
-1. **Patrick F. Horve**, Jennifer Hampton-Hill, Michelle Sconce Massaquoi, Emily Goers Sweeney, Elena S. Wall, Karen Guillemin, "Bacterial secreted BefA protein disrupts cellular membranes and stimulates pancreatic β-cell expansion." American Society for Microbiology Northwest Brach Meeting 2022, Spokane, WA. November 2022.
-2. Christopher Lee, Alexandria Lichtl, Amelia Fitterer, **Patrick Horve**. "Utility of Plain Radiographs for the Evaluation of Shoulder Pain and Implications for Telemedicine." American Orthopaedic Society for Sports Medicine-Arthroscopy Association of North America Combined 2021 Annual Meeting, Nashville, TN. June 2021.
-3. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” American Society for Microbiology Microbe 2020, Chicago, IL. Jun 2020.
-4. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” 2020 Microbiology of the Built Environment (MoBE) Gordon Research Conference, Andover, NH. Jun 2020.
+1. **Patrick F. Horve**, Michelle S. Massaquoi, Emily Goers Sweeney, Karen Guillemin. "Beta-cell Expansion Factor A (BefA) Promotes β-cell Proliferation and Maturation." Western Region Islet Study Group 2024, Asilomar, CA. October 2024. 
+2. **Patrick F. Horve**, Jennifer Hampton-Hill, Michelle Sconce Massaquoi, Emily Goers Sweeney, Elena S. Wall, Karen Guillemin, "Bacterial secreted BefA protein disrupts cellular membranes and stimulates pancreatic β-cell expansion." American Society for Microbiology Northwest Brach Meeting 2022, Spokane, WA. November 2022.
+3. Christopher Lee, Alexandria Lichtl, Amelia Fitterer, **Patrick Horve**. "Utility of Plain Radiographs for the Evaluation of Shoulder Pain and Implications for Telemedicine." American Orthopaedic Society for Sports Medicine-Arthroscopy Association of North America Combined 2021 Annual Meeting, Nashville, TN. June 2021.
+4. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” American Society for Microbiology Microbe 2020, Chicago, IL. Jun 2020.
+5. *[Cancelled due to COVID-19]* **Horve, P.F.**, Dietz, L., Ishaq, S.L., Fretz, M., Van Den Wymelenberg, K. “Characterization of Viable Microbial Communities on Healthcare Associated Window Components.” 2020 Microbiology of the Built Environment (MoBE) Gordon Research Conference, Andover, NH. Jun 2020.
