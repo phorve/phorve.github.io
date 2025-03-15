@@ -12,10 +12,12 @@ toc: true
 
 ---
 
-## Awards and Scholarships
-1. Raymond-Stevens Technical Skills Training Awardee (2023)
-2. [Borgen Adamson Memorial Scholarship Award Winner](http://molbio.uoregon.edu/gradprogram/) (2022) - Awarded by UO Institute of Molecular Biology
-3. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
+## Honors and Awards
+1. NIH Ruth L. Kirschstein NRSA Predoctoral Fellow (F31) (2025-Present)
+2. Diabetes Research Connection Research Fundee (2024; declined)
+3. Raymond-Stevens Technical Skills Training Awardee (2023)
+4. [Borgen Adamson Memorial Scholarship Award Winner](http://molbio.uoregon.edu/gradprogram/) (2022) - Awarded by UO Institute of Molecular Biology
+5. [University of Oregon Innovation Award](https://research.uoregon.edu/priorities-and-impact/research-excellence/2021-oustanding-research-awards#Institute%20for%20Health%20in%20the%20Built%20Environment) (2021) - Institute for Health in the Built Environment
 
 ---
 
@@ -59,76 +61,80 @@ toc: true
 
 ---
 
-## Publications
-1. **[Cell-type-specific responses to the microbiota across all tissues of the larval zebrafish](https://www.cell.com/cell-reports/fulltext/S2211-1247(23)00106-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124723001067%3Fshowall%3Dtrue)**
+## Publications (in reverse chronological order)
+1. **[Air, surface, and wastewater surveillance of SARS-CoV-2; a multimodal evaluation of COVID-19 detection in a built environment](https://www.nature.com/articles/s41370-025-00757-3)**
+  - Andreas Olsen Martinez, Leslie G Dietz, Hooman Parhizkar, Devrim Kaya, Dale Northcutt, **Patrick F Horve**, Jason Stenson, Michael Harry, David Mickle, Shana Jaaf, Oumaima Hachimi, Casey Kanalos, Isaac Martinotti, Garis Bowles, Mark Fretz, Christine Kelly, Tyler S Radniecki, Kevin Van Den Wymelenberg
+  - *Journal of Exposure Science & Environmental Epidemiology* (2025)
+
+2. **[Cell-type-specific responses to the microbiota across all tissues of the larval zebrafish](https://www.cell.com/cell-reports/fulltext/S2211-1247(23)00106-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124723001067%3Fshowall%3Dtrue)**
   - Michelle S. Massaquoi, Garth L. Kong, Daisy Chilin-Fuentes, Julia S. Ngo, **Patrick F. Horve**, Ellie Melancon, M. Kristina Hamilton, Judith S. Eisen, Karen Guillemin 
   - *Cell Reports* (2023)
 
-2. **[Evaluating fomite risk of brown paper bags storing ersonal protective equipment exposed to SARS-CoV-2: A quasi-experimental study.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273433)**  
+3. **[Evaluating fomite risk of brown paper bags storing ersonal protective equipment exposed to SARS-CoV-2: A quasi-experimental study.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273433)**  
   - Unger, K., Dietz, L., **Horve, P.F.**, Van Den Wymelenberg, K., Lin, A., Kinney E., Kea, B.
   - *PLOS One* (2022) 
 
-3. **[Longtiduinal Analysis of Built Environment and Aerosol Contamination Associated with Isolated COVID-19 Positive Individuals.](https://www.nature.com/articles/s41598-022-11303-8)**
+4. **[Longtiduinal Analysis of Built Environment and Aerosol Contamination Associated with Isolated COVID-19 Positive Individuals.](https://www.nature.com/articles/s41598-022-11303-8)**
   - **Horve, P.F.**, Dietz, L., Bowles, G., MacCrone G., Olsen-Martinez, A., Northcutt, D., Moore, V., Barnatan, L., Parhizkar, H., Van Den Wymelenberg, K.
   - *Scientific Reports*  (2022)
   - [Preprint](https://www.researchsquare.com/article/rs-861942/v1)
 
-4. **[Quantifying human and environmental viral load relationships amidst mitigation strategies in a controlled chamber with participants having COVID-19.](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac006/6498295?login=true)**
+5. **[Quantifying human and environmental viral load relationships amidst mitigation strategies in a controlled chamber with participants having COVID-19.](https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac006/6498295?login=true)**
   - Parhizkar, H., Dietz, L., Olsen-Martinez, A., **Horve, P.F.**, Barnatan, L., Northcutt, D., Van Den Wymelenberg, K.
   - *Clinical Infectious Diseases* (2021)
   - [Preprint](https://www.researchsquare.com/article/rs-940891/v1)
 
-5. **[Twenty important research questions in microbial exposure and social equity.](https://journals.asm.org/doi/10.1128/msystems.01240-21)**
+6. **[Twenty important research questions in microbial exposure and social equity.](https://journals.asm.org/doi/10.1128/msystems.01240-21)**
   - Robinson, J., Redvers, N., Camargo, A., Bosch, C.A., Breed, M.F., Brenner, L.A., Carney, M.A., Chauhan, A., Dasari, M., Dietz, L.G., Friedman, M., Grieneisen, L., Hoisington, A.J., **Horve, P.F.**, Hunter, A., Jech, S., Jorgensen, A., Lowry, C.A., Man, I., Mhuireach, G., Navarro-Pérez, E., Ritchie, E.G., Stewart, J.D., Watkins, H., Weinstein, P., Ishaq, S.L.
   - *mSystems* (2022)
 
-6. **[Introducing the Microbes and Social Equity Working Group: considering the microbial components of social, environmental, and health justice.](https://doi.org/10.1128/mSystems.00471-21)**
+7. **[Introducing the Microbes and Social Equity Working Group: considering the microbial components of social, environmental, and health justice.](https://doi.org/10.1128/mSystems.00471-21)**
   - Ishaq SL, Parada FJ, Wolf PG, Bonilla CY, Carney MA, Benezra A, Wissel E, Friedman M, DeAngelis KM, Robinson JM, Fahimipour AK, Manus MB, Grieneisen L, Dietz LG, Pathak A, Chauhan A, Kuthyar S, Stewart JD, Dasari MR, Nonnamaker E, Choudoir M, **Horve PF**, Zimmerman NB, Kozik AJ, Darling KW, Romero-Olivares AL, Hariharan J, Farmer N, Maki KA, Collier JL, O’Doherty KC, Letourneau J, Kline J, Moses PL, Morar N.
   - *mSystems* (2021)
 
-7. **[Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689)**
+8. **[Evaluation of a Bioaerosol Sampler for Indoor Environmental Surveillance of Severe Acute Respiratory Syndrome Coronavirus 2.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257689)**
   - **Horve, P.F.**, Dietz,L., Northcutt, D., Stenson, J., Van Den Wymelenberg, K.G.
   - *PLOS One* (2021)
   - [Preprint](https://www.preprints.org/manuscript/202103.0609/v1)
 
 
-8. **[Differing effects of four building materials on viable bacterial communities and VOCs. Developments in the Built Environment.](https://www.sciencedirect.com/science/article/pii/S2666165921000144)**
+9. **[Differing effects of four building materials on viable bacterial communities and VOCs. Developments in the Built Environment.](https://www.sciencedirect.com/science/article/pii/S2666165921000144)**
   - Mhuireach, G. Á., Dietz, L., Griffiths, W., **Horve, P. F.**, Laguerre, A., Northcutt, D., ... & Van Den Wymelenberg, K.
   - *Developments in the Built Environment* (2021)
 
 
-9. **[Identification of SARS-CoV-2 RNA in Healthcare Heating, Ventilation, and Air Conditioning Units.](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12898)**
+10. **[Identification of SARS-CoV-2 RNA in Healthcare Heating, Ventilation, and Air Conditioning Units.](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12898)**
   - **Horve PF**, Dietz L, Fretz M, Constant DA, Wilkes A, Townes JM, Martindale RG, Messer WB, Van Den Wymelenberg K.
   - *Indoor Air* (2021)
   - [Preprint](https://www.medrxiv.org/content/10.1101/2020.06.26.20141085v1)
 
 
-10. **Exploring Integrated Environmental Viral Surveillance of Indoor Environments: A comparison of surface and bioaerosol environmental sampling in hospital rooms with COVID-19 patients.**
+11. **Exploring Integrated Environmental Viral Surveillance of Indoor Environments: A comparison of surface and bioaerosol environmental sampling in hospital rooms with COVID-19 patients.**
   - Leslie Dietz, David A. Constant, Mark Fretz, **Patrick F. Horve**, Andreas Olsen-Martinez, Jason Stenson, Andrew Wilkes, Robert G. Martindale, William B. Messer, Kevin G. Van Den Wymelenberg.
   - [Preprint](https://www.medrxiv.org/content/10.1101/2021.03.26.21254416v1) (2021)
 
 
-11. **[Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV- 2) Environmental Contamination and Childbirth.](https://journals.lww.com/greenjournal/fulltext/2020/10000/severe_acute_respiratory_syndrome_coronavirus_2.27.aspx)**
+12. **[Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV- 2) Environmental Contamination and Childbirth.](https://journals.lww.com/greenjournal/fulltext/2020/10000/severe_acute_respiratory_syndrome_coronavirus_2.27.aspx)**
   - Hermesch A, **Horve P**, Edelman A, Dietz L, Constant D, Fretz M, Messer W, Martindale R, Van Den Wymelenberg K.
   - *Obstetrics and Gynecology* (2020)
 
 
-12. **[Viable Bacterial communities on hospital window components in patient room.](https://peerj.com/articles/9580/)**
+13. **[Viable Bacterial communities on hospital window components in patient room.](https://peerj.com/articles/9580/)**
   - **Horve PF**, Dietz LG, Ishaq SI, Kline J, Fretz M, Van Den Wymelenberg. 2020.
   - *PeerJ* (2020)
 
 
-13. **[2019 novel coronavirus (COVID-19) pandemic: built environment considerations to reduce transmission.](https://doi.org/10.1128/mSystems.00245-20)**
+14. **[2019 novel coronavirus (COVID-19) pandemic: built environment considerations to reduce transmission.](https://doi.org/10.1128/mSystems.00245-20)**
   - Dietz L, **Horve PF**, Coil DA, Fretz M, Eisen JA, Van Den Wymelenberg K.
   - *mSystems* (2020)
 
 
-14. **[From one species to another: A review on the interaction of chemistry and microbiology in relation to cleaning in the built environment](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12596)**
+15. **[From one species to another: A review on the interaction of chemistry and microbiology in relation to cleaning in the built environment](https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12596)**
   - Velazquez S., Griffiths W., Dietz L., **Horve P.**, Nunez, S., Hu, J., Shen, J., Fretz, M., Bi, C., Xu, Y., Van Den Wymelenberg, K.G., Hartmann, E.M., Ishaq, S.L. 2019.
   - *Indoor Air* (2019)
 
 
-15. [Building Upon Current Knowledge of Indoor Microbiology to Construct the Next Era of Research into Microorganisms, Health, and the Built Environment.](https://www.nature.com/articles/s41370-019-0157-y)
+16. [Building Upon Current Knowledge of Indoor Microbiology to Construct the Next Era of Research into Microorganisms, Health, and the Built Environment.](https://www.nature.com/articles/s41370-019-0157-y)
   - **Horve, P.F.**, Lloyd, S., Mhuireach, G.A., Dietz, L., Fretz, M., MacCrone, G., Van Den Wymelenberg, K., Ishaq, S.L.
   - *Journal of Exposure Science and Environmental Epidemiology* (2019)
 
