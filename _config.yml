@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Patrick Finn Horve
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the site for all of my scientific endeavours! If you're reading this, you must be pretty freaking awesome! Welcome!
+description: ''
 twitter_username: PatrickHorve
 github_username: phorve
 minimal_mistakes_skin: default
