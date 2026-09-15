@@ -37,12 +37,19 @@ toc: true
 ---
 
 ## Teaching
+- European Molecular Biology Organization Practical Course Instructor - “Computation and experimental microbiomics” (2026)
 - BI 322: *Cell Biology*, University of Oregon, Graduate Teaching Assistant (2021)
 - BI 326: *Immunology and Infectious Disease*, University of Oregon, Graduate Teaching Assistant (2022)
 - BI 330: *Microbiology*, University of Oregon, Graduate Teaching Assistant (2022)
 - BI 331: *Microbiology Laboratory*, University of Oregon, Graduate Teaching Assistant (2022)
 
 ---
+
+## Mentoring
+Undergraduate Researchers 
+Prerana Thilavalli (2025 – 2026)	  
+Ella Fliesler (2024 - 2026) - 2025 University of Oregon Knight Campus Undergraduate Scholar  
+
 
 ## Service
 - Ongoing Science Communication, outreach, and Education
