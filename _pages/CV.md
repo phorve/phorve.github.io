@@ -46,10 +46,11 @@ toc: true
 ---
 
 ## Mentoring
-Undergraduate Researchers 
-Prerana Thilavalli (2025 – 2026)	  
-Ella Fliesler (2024 - 2026) - 2025 University of Oregon Knight Campus Undergraduate Scholar  
+- Undergraduate Researchers 
+  - Prerana Thilavalli (2025 – 2026)	  
+  - Ella Fliesler (2024 - 2026) - 2025 University of Oregon Knight Campus Undergraduate Scholar  
 
+---
 
 ## Service
 - Ongoing Science Communication, outreach, and Education
